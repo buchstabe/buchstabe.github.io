@@ -19,4 +19,4 @@ end
 
 gem 'sinatra', '~> 1.4.2'
 
-gem 'capistrano', :group => [:development]
+gem 'capistrano', '~> 2.0', :group => [:development]
