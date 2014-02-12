@@ -4,7 +4,7 @@ title: "Deleting files from a Git repository"
 date: 2013-07-13 15:28
 author: Andrei Beliankou
 comments: true
-categories: git
+categories: Git
 ---
 
 Suppose you have been working for a long time on a project, and now you want to delete some files from you project because ... (the reason does not really matter at this point).

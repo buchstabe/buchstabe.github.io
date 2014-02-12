@@ -4,7 +4,7 @@ title: "Capistrano: deployment strategies"
 date: 2013-07-05 12:57
 author: Andrei Beliankou
 comments: true
-categories: capistrano ruby deployment
+categories: Capistrano Ruby Deployment
 ---
 
 [Capistrano](http://www.capistranorb.com) is a  tool for remote server _automation_ and _deployment_. We have to underline these two task as they will remain two different areas for a long time. Historicaly *Capistrano* was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using *Capistrano*.

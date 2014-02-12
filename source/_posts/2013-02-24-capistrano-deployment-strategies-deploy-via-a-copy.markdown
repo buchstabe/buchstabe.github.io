@@ -4,7 +4,7 @@ layout: post
 title: "Capistrano deployment strategies: deploy via a copy"
 date: 2013-02-24 18:39
 comments: true
-categories: Ruby, Deployment
+categories: Ruby Deployment
 ---
 
 [Capistrano](https://github.com/capistrano/capistrano) presents a very
