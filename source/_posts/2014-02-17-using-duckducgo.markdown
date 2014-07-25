@@ -6,4 +6,4 @@ author: Andrei Beliankou
 comments: true
 categories: Tools
 ---
-[DuckDuckGo](https://duckduckgo.com) is a wonderful and very capable search engine backed by [Yandex](https://ya.ru). Us it! 
+[DuckDuckGo](https://duckduckgo.com) is a wonderful and very capable search engine backed by [Yandex](https://ya.ru). Use it! 
