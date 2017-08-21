@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: LaTeX | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/latex/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Presentation Software for Ubuntu]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
+    <updated>2014-02-18T14:52:55+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
+    <content type="html"><![CDATA[<p>Today we want to share a great project with you: A pdf presentation software for LaTeX Beamer. Give it a try and you&rsquo;ll love it: <a href="https://github.com/dannyedel/dspdfviewer">https://github.com/dannyedel/dspdfviewer</a></p>
+]]></content>
+  </entry>
+  
+</feed>

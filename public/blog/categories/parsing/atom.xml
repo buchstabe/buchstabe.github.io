@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Parsing | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/parsing/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Berkeley Parser: Introduction]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction/"/>
+    <updated>2013-06-26T12:27:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction</id>
+    <content type="html"><![CDATA[<p><a href="https://code.google.com/p/berkeleyparser/">Berkeley Parser</a> is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.</p>
+
+<p>The parser itself and a grammar for one of provided languages here from its <a href="https://code.google.com/p/berkeleyparser/downloads/list">repository</a> at Google code. For now pretrained grammars are offered for English, German, French, Bulgarian, Arabic and Chinese.</p>
+
+<p>We&rsquo;ve downloaded the parser archive and the English grammar. Let&rsquo;s try to produce some meaningful output:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Berkeley Parser Invocation </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span><span class="nb">echo</span> &amp;ldquo;The horse raced past the barn fell .&amp;rdquo; | <span class="se">\</span>
+</span><span class='line'><span class="nv">$ </span>java -jar BerkeleyParser-1.7.jar -gr eng_sm6.gr
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The resulted analysis is by far not ideal but it is a good beginning:</p>
+
+<p><img class="center" src="/images/garden-path-sentence.png" title="&lsquo;Garden path sentence&rsquo; &lsquo;Garden path sentence&rsquo;" ></p>
+]]></content>
+  </entry>
+  
+</feed>

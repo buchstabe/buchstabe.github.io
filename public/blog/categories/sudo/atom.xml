@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sudo | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/sudo/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using sudo for system administration]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration/"/>
+    <updated>2014-02-14T16:37:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration</id>
+    <content type="html"><![CDATA[<p>We can face the situation with restricted rights on a server. This is a use case for <code>sudo</code>. You can get restricted access to specific commands as <code>root</code>, but not to the whole system, which is very good!</p>
+
+<p>I need access to <code>virt-top</code> to monitor kvm based virtual machines on a big host system. Add the following line to <code>sudoers</code> file:</p>
+
+<p><code>
+myusername ALL= NOPASSWD: /usr/bin/virt-top
+</code></p>
+
+<p>This line allows <code>myusername</code> to run <code>virt-top</code> without password from any terminal.</p>
+
+<p>A couple of useful links:</p>
+
+<ul>
+<li><a href="http://www.komar.org/pres/sudo/toc.html">http://www.komar.org/pres/sudo/toc.html</a></li>
+<li><a href="http://www.sudo.ws/sudo/sample.sudoers">http://www.sudo.ws/sudo/sample.sudoers</a></li>
+<li><a href="http://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html">http://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

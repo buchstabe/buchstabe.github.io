@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Non web tasks in Ruby]]></title>
+    <link href="http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
+    <updated>2017-06-11T22:53:19+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
+    <content type="html"><![CDATA[<p>Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:</p>
+
+<ul>
+<li><a href="https://github.com/arbox/data-science-with-ruby">https://github.com/arbox/data-science-with-ruby</a></li>
+<li><a href="https://github.com/arbox/nlp-with-ruby">https://github.com/arbox/nlp-with-ruby</a></li>
+<li><a href="https://github.com/arbox/machine-learning-with-ruby">https://github.com/arbox/machine-learning-with-ruby</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Online Dictionaries]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-28/online-dictionaries/"/>
+    <updated>2014-02-28T16:45:02+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-28/online-dictionaries</id>
+    <content type="html"><![CDATA[<p>A couple of useful links:</p>
+
+<ul>
+<li><a href="http://de.pons.com/">http://de.pons.com/</a></li>
+<li><a href="http://www.merriam-webster.com/">http://www.merriam-webster.com/</a></li>
+<li><a href="http://www.collinsdictionary.com/">http://www.collinsdictionary.com/</a></li>
+<li><a href="http://www.oxforddictionaries.com/">http://www.oxforddictionaries.com/</a></li>
+<li><a href="http://www.oed.com/">http://www.oed.com/</a></li>
+<li><a href="http://dictionary.cambridge.org/">http://dictionary.cambridge.org/</a></li>
+<li><a href="http://www.duden.de/">http://www.duden.de/</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Customizing Emacs]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-20/customizing-emacs/"/>
+    <updated>2014-02-20T14:41:30+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-20/customizing-emacs</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve tried many ways to build a clean testing environment for Emacs editor on my Ubuntu machine. One previous attempt showed a possible way to do so:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>emacs -Q -l some_startup_script.el
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But this solution doesn&rsquo;t show the real state of affairs when we load all the configuration files in Emacs. The <code>.emacs</code> file is loaded in the middle of the Emacs initialization, not at the end. See for details <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Startup-Summary.html#Startup-Summary">39.1.1 Summary: Sequence of Actions at Startup</a>. One possible problem is that <code>package.el</code> loads its configuration before you&rsquo;ve done custom changes.</p>
+
+<p>For now I consider a better way starting Emacs from another user:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>emacs -u emacstestuser
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>All customizations can be done in the <code>.emacs.d</code> directory from <code>emacstestuser</code>. The only thing you need is changing of user specific variables:</p>
+
+<figure class='code'><figcaption><span>.emacs</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="p">(</span><span class="n">setq</span> <span class="n">user</span><span class="o">-</span><span class="n">emacs</span><span class="o">-</span><span class="n">directory</span> <span class="s2">&quot;/home/emacstestuser/.emacs.d&quot;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Presentation Software for Ubuntu]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
+    <updated>2014-02-18T14:52:55+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
+    <content type="html"><![CDATA[<p>Today we want to share a great project with you: A pdf presentation software for LaTeX Beamer. Give it a try and you&rsquo;ll love it: <a href="https://github.com/dannyedel/dspdfviewer">https://github.com/dannyedel/dspdfviewer</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using DuckDucGo]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-17/using-duckducgo/"/>
+    <updated>2014-02-17T13:16:53+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-17/using-duckducgo</id>
+    <content type="html"><![CDATA[<p><a href="https://duckduckgo.com">DuckDuckGo</a> is a wonderful and very capable search engine backed by <a href="https://ya.ru">Yandex</a>. Use it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Crossplatform UIs with JavaFX]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-16/crossplatform-uis-with-javafx/"/>
+    <updated>2014-02-16T20:26:43+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-16/crossplatform-uis-with-javafx</id>
+    <content type="html"><![CDATA[<p>An amazing presentation of a Demo written with JavaFX on MacOS, iOS, Android.</p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/a3dAteWr40k "></iframe></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using sudo for system administration]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration/"/>
+    <updated>2014-02-14T16:37:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration</id>
+    <content type="html"><![CDATA[<p>We can face the situation with restricted rights on a server. This is a use case for <code>sudo</code>. You can get restricted access to specific commands as <code>root</code>, but not to the whole system, which is very good!</p>
+
+<p>I need access to <code>virt-top</code> to monitor kvm based virtual machines on a big host system. Add the following line to <code>sudoers</code> file:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>myusername ALL= NOPASSWD: /usr/bin/virt-top</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This line allows <code>myusername</code> to run <code>virt-top</code> without password from any terminal.</p>
+
+<p>A couple of useful links:</p>
+
+<ul>
+<li><a href="http://www.komar.org/pres/sudo/toc.html">http://www.komar.org/pres/sudo/toc.html</a></li>
+<li><a href="http://www.sudo.ws/sudo/sample.sudoers">http://www.sudo.ws/sudo/sample.sudoers</a></li>
+<li><a href="http://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html">http://www.garron.me/en/linux/visudo-command-sudoers-file-sudo-default-editor.html</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Adding ignored files with Git]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-12/adding-ignored-files-with-git/"/>
+    <updated>2014-02-12T13:09:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-12/adding-ignored-files-with-git</id>
+    <content type="html"><![CDATA[<p>Today I&rsquo;ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
+
+<figure class='code'><figcaption><span>.gitignore</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>*.pdf
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I had to add two PDF files with graphics and didn&rsquo;t want to change my ingnoring rules:</p>
+
+<figure class='code'><figcaption><span>Adding ignored files with Git</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git add -f file1.pdf file2.pdf
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <code>-f</code> switch forces Git to add ignored files. Use it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New plans on Rubinius' development]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-10-18/new-plans-on-rubinius-development/"/>
+    <updated>2013-10-18T13:48:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-10-18/new-plans-on-rubinius-development</id>
+    <content type="html"><![CDATA[<p>A new milestone  in the Rubinius&#8217; development has been announced on October, 15th. The new project is called <em>Rubinius X</em> and should simplify obstacles in the Ruby world.</p>
+
+<p><a href="http://x.rubini.us/">Rubinius X</a> aims to create a new industry friendly Ruby environment which should prevent the endangered Ruby language from <a href="http://www.reddit.com/r/programming/comments/1oi8wd/ruby_is_a_dying_language/">dying</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rubinius 2.0]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-10-11/rubinius-2-dot-0/"/>
+    <updated>2013-10-11T12:57:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-10-11/rubinius-2-dot-0</id>
+    <content type="html"><![CDATA[<p>On October, 4th the Rubinius team announced the release of Rubinius 2.0. There are many exciting things to share. Look inside <a href="http://rubini.us/2013/10/04/rubinius-2-0-released/">Rubinius 2.0</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Calling Java from JRuby]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <updated>2013-10-02T14:54:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
+
+<figure class='code'><figcaption><span>Calling Java </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="s1">&#39;java&#39;</span>
+</span><span class='line'><span class="n">java_import</span> <span class="n">my</span><span class="o">.</span><span class="n">package</span><span class="o">.</span><span class="n">CoolClass</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">obj1</span> <span class="o">=</span> <span class="ss">Java</span><span class="p">:</span><span class="ss">:CoolClass</span><span class="o">.</span><span class="n">new</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Packaging ruby applications for Debian based systems]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
+    <updated>2013-07-14T21:40:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
+    <content type="html"><![CDATA[<p>Since I packaged my Ruby programs for the last time things changed a lot.</p>
+
+<p>I&rsquo;m going to refresh my knowledge and collect some useful links in the first step:</p>
+
+<ul>
+<li><a href="https://wiki.debian.org/Ruby">https://wiki.debian.org/Ruby</a></li>
+<li><a href="http://blog.brightbox.co.uk/posts/next-generation-ruby-packages-for-ubuntu">http://blog.brightbox.co.uk/posts/next-generation-ruby-packages-for-ubuntu</a></li>
+<li><a href="https://wiki.debian.org/Diaspora/Packaging">https://wiki.debian.org/Diaspora/Packaging</a></li>
+<li><a href="https://wiki.debian.org/Teams/Ruby/Packaging">https://wiki.debian.org/Teams/Ruby/Packaging</a></li>
+<li><a href="http://developer.ubuntu.com/packaging/html">http://developer.ubuntu.com/packaging/html</a></li>
+<li><a href="http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf">http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf</a></li>
+<li><a href="http://www.lucas-nussbaum.net/blog/?p=681">http://www.lucas-nussbaum.net/blog/?p=681</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Deleting files from a Git repository]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-07-13/deleting-files-from-a-git-repository/"/>
+    <updated>2013-07-13T15:28:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-07-13/deleting-files-from-a-git-repository</id>
+    <content type="html"><![CDATA[<p>Suppose you have been working for a long time on a project, and now you want to delete some files from you project because &hellip; (the reason does not really matter at this point).</p>
+
+<p>You may want to completely erase a file or a whole directory from your repository. The file or directory may be kept in the local copy or deleted as well.</p>
+
+<p>If you want a complete removal use <tt>git rm</tt>:</p>
+
+<figure class='code'><figcaption><span>Complete removal </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git rm file_to_delete.rb
+</span><span class='line'><span class="nv">$ </span><span class="c"># file_to_delete.rb removed from both your working copy and repository tree.</span>
+</span><span class='line'><span class="nv">$ </span>git rm -r directory_to_delete
+</span><span class='line'><span class="nv">$ </span><span class="c"># directory_to removed from both your working copy and repository tree.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If you want to keep your local copy use <tt>git rm &mdash;cached</tt>.</p>
+
+<figure class='code'><figcaption><span>Retaining local copy </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git rm --cached file_to_delete.rb
+</span><span class='line'><span class="nv">$ </span><span class="c"># file_to_delete.rb removed only from repository tree.</span>
+</span><span class='line'><span class="nv">$ </span>git rm --cached -r directory_to_delete
+</span><span class='line'><span class="nv">$ </span><span class="c"># directory_to removed only from your repository tree.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In the latter case don&rsquo;t forget to add the file or directory to your <tt>.gitignore</tt> file, otherwise <em>Git</em> will bother you with annoying status messages.</p>
+
+<p>One last thing you should keep in mind is that erasing data from a repository means only that the information is not present in the actual commit and in all future incarnations of the code. The data can be restored from the previous states of your repository. If you want to wipe your sensitive data consider reading the appropriate <a href="https://help.github.com/articles/remove-sensitive-data">GitHub Help page</a> on this topic.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Capistrano: deployment strategies]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
+    <updated>2013-07-05T12:57:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-07-05/capistrano-deployment-strategies</id>
+    <content type="html"><![CDATA[<p><a href="http://www.capistranorb.com">Capistrano</a> is a  tool for remote server <em>automation</em> and <em>deployment</em>. We have to underline these two task as they will remain two different areas for a long time. Historicaly <em>Capistrano</em> was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using <em>Capistrano</em>.</p>
+
+<p>Capistrano supports the idea of deployment strategies. Strictly speaking they are the way, how the source code goes to the remote machine. We can distinguish between <em>local</em> and <em>remote</em> strategies.</p>
+
+<p>Local strategies have only one member, the <em>copy</em> strategy. Remote strategies split into <em>export</em>, <em>checkout</em> and <em>remote_cache</em> variants.</p>
+
+<p>If you have a static site or do not want to use a SCM for deployment look at the following code snippet:</p>
+
+<figure class='code'><figcaption><span>A fragment from Capfile </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">set</span> <span class="ss">:repository</span><span class="p">,</span>  <span class="s2">&quot;./source_dir&quot;</span> <span class="c1"># This is our directory with the content to be deployed.</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:scm</span><span class="p">,</span> <span class="ss">:none</span> <span class="c1"># Do not use any SCM.</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">set</span> <span class="ss">:deploy_to</span><span class="p">,</span> <span class="s1">&#39;/var/www/mysite/htdocs&#39;</span> <span class="c1"># This is a place on the remote machine.</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:deploy_via</span><span class="p">,</span> <span class="ss">:copy</span> <span class="c1"># We are going to deploy using the copy strategy.</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">set</span> <span class="ss">:copy_dir</span><span class="p">,</span> <span class="s1">&#39;./tmp/capistrano&#39;</span> <span class="c1"># Here we create a temporary archive with our content.</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:copy_remote_dir</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">deploy_to</span><span class="si">}</span><span class="s2">/tmp/capistrano&quot;</span> <span class="c1"># There the archive will be copied.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You have to ensure that both local and remote directories for archives exist.</p>
+
+<p>If you need some additional readings on <em>Capistrano</em>, try out the following:</p>
+
+<ul>
+<li><a href="http://www.capistranorb.com">Capistrano Home Page</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/capistrano">stackoverflow questions on Capistrano</a></li>
+<li><a href="https://github.com/capistrano/capistrano">Source Code</a></li>
+<li><a href="https://github.com/capistrano/capistrano/wiki">Wiki</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Berkeley Parser: Introduction]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction/"/>
+    <updated>2013-06-26T12:27:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction</id>
+    <content type="html"><![CDATA[<p><a href="https://code.google.com/p/berkeleyparser/">Berkeley Parser</a> is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.</p>
+
+<p>The parser itself and a grammar for one of provided languages here from its <a href="https://code.google.com/p/berkeleyparser/downloads/list">repository</a> at Google code. For now pretrained grammars are offered for English, German, French, Bulgarian, Arabic and Chinese.</p>
+
+<p>We&rsquo;ve downloaded the parser archive and the English grammar. Let&rsquo;s try to produce some meaningful output:</p>
+
+<figure class='code'><figcaption><span>Berkeley Parser Invocation </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span><span class="nb">echo</span> <span class="s2">&quot;The horse raced past the barn fell .&quot;</span> | <span class="se">\</span>
+</span><span class='line'><span class="nv">$ </span>java -jar BerkeleyParser-1.7.jar -gr eng_sm6.gr
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The resulted analysis is by far not ideal but it is a good beginning:</p>
+
+<p><img class="center" src="http://buchstabe.github.io/images/garden-path-sentence.png" title="Garden path sentence" alt="Garden path sentence"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Anki Model for German Nouns]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns/"/>
+    <updated>2013-06-21T11:47:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns</id>
+    <content type="html"><![CDATA[<p><a href="http://ankisrs.net/">Anki</a> is a great software piece dealing with <a href="http://en.wikipedia.org/wiki/Spaced_repetition">Spaced Repetition</a>.</p>
+
+<p>The second generation of Anki offers a different view on cards, notes, facts and layouts. Compared to the first version of this program, one may be confused by alternating definitions. But after a short period everything gets clear and logical.</p>
+
+<p>I learn German nouns with my custom note type <em>GermanNoun</em>. It exposes the following fields:</p>
+
+<ul>
+<li>Wortform;</li>
+<li>Artikel;</li>
+<li>Aussprache;</li>
+<li>Paradigma;</li>
+<li>Bedeutung;</li>
+<li>Beispiel.</li>
+</ul>
+
+
+<p>The trick is to combine these field with the help of card layouts. Using only 6 fields (many of them can be ommited) we are going to generate a lot of useful card.</p>
+
+<p>Here the examples of the front card side:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{{Wortform}}
+</span><span class='line'>&lt;br>
+</span><span class='line'>{{#Beispiel}}{{Beispiel}}{{/Beispiel}}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The corresponding back side can be encoding as follows:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{{Artikel}} {{Wortform}}
+</span><span class='line'>&lt;span style='color: red; font-size: 16px'>{{Paradigma}}&lt;/span>
+</span><span class='line'>&lt;br>
+</span><span class='line'>{{#Aussprache}}{{Aussprache}}{{/Aussprache}}
+</span><span class='line'>&lt;hr id=answer>
+</span><span class='line'>{{Bedeutung}}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You may want to experiment with colors and font properties. HMTL to rescue :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We moved to Octopress!]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-02-24/we-moved-to-octopress/"/>
+    <updated>2013-02-24T22:07:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-02-24/we-moved-to-octopress</id>
+    <content type="html"><![CDATA[<p>We&rsquo;ve just moved to <a href="http://octopress.org/">Octopress</a> and are very happy! Follow us on this new plattform.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Data Structures and Algorithms in Ruby]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby/"/>
+    <updated>2013-02-24T18:50:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby</id>
+    <content type="html"><![CDATA[<p>There are a lot of good and excellent introductions and advanced books
+on algorithmic design. Many of them describe the topic in a language
+agnostic way, some others concentrate on a particular language (e.g.
+Java).</p>
+
+<p>The following <a
+href="http://www.brpreiss.com/books/opus8/">resource</a> is an attempt
+to introduce beginners how to implement basic algorithms and data
+structures in Ruby.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Zotero group for selected readings]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-02-24/zotero-group-for-selected-readings/"/>
+    <updated>2013-02-24T18:49:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-02-24/zotero-group-for-selected-readings</id>
+    <content type="html"><![CDATA[<p>
+    I&#39;ve just decided to create a group on <a href="https://www.zotero.org/groups/arbox/items">Zotero</a> to keep some bibliographic notes. Books, articles and notes I find notable will be stored there.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby Koans]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-02-24/ruby-koans/"/>
+    <updated>2013-02-24T18:48:00+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-02-24/ruby-koans</id>
+    <content type="html"><![CDATA[<p>
+    If you are interested in a programmatic way to learn some aspects of <a href="http://www.ruby-lang.org/en">Ruby</a>, your might want to look at <a href="http://rubykoans.com/">Ruby Koans</a>.</p>
+
+
+<p>
+    It is an awesome ressource for beginners and intermediate rubyists.</p>
+
+]]></content>
+  </entry>
+  
+</feed>

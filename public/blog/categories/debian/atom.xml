@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Debian | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/debian/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Packaging ruby applications for Debian based systems]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
+    <updated>2013-07-14T21:40:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
+    <content type="html"><![CDATA[<p>Since I packaged my Ruby programs for the last time things changed a lot.</p>
+
+<p>I&rsquo;m going to refresh my knowledge and collect some useful links in the first step:</p>
+
+<ul>
+<li><a href="https://wiki.debian.org/Ruby">https://wiki.debian.org/Ruby</a></li>
+<li><a href="http://blog.brightbox.co.uk/posts/next-generation-ruby-packages-for-ubuntu">http://blog.brightbox.co.uk/posts/next-generation-ruby-packages-for-ubuntu</a></li>
+<li><a href="https://wiki.debian.org/Diaspora/Packaging">https://wiki.debian.org/Diaspora/Packaging</a></li>
+<li><a href="https://wiki.debian.org/Teams/Ruby/Packaging">https://wiki.debian.org/Teams/Ruby/Packaging</a></li>
+<li><a href="http://developer.ubuntu.com/packaging/html">http://developer.ubuntu.com/packaging/html</a></li>
+<li><a href="http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf">http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf</a></li>
+<li><a href="http://www.lucas-nussbaum.net/blog/?p=681">http://www.lucas-nussbaum.net/blog/?p=681</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

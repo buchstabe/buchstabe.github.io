@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: nlp | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/nlp/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Non web tasks in Ruby]]></title>
+    <link href="http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
+    <updated>2017-06-11T22:53:19+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
+    <content type="html"><![CDATA[<p>Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:</p>
+
+<ul>
+<li><a href="https://github.com/arbox/data-science-with-ruby">https://github.com/arbox/data-science-with-ruby</a></li>
+<li><a href="https://github.com/arbox/nlp-with-ruby">https://github.com/arbox/nlp-with-ruby</a></li>
+<li><a href="https://github.com/arbox/machine-learning-with-ruby">https://github.com/arbox/machine-learning-with-ruby</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

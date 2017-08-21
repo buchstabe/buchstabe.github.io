@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Emacs | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/emacs/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Customizing Emacs]]></title>
+    <link href="http://buchstabe.github.io/blog/2014-02-20/customizing-emacs/"/>
+    <updated>2014-02-20T14:41:30+01:00</updated>
+    <id>http://buchstabe.github.io/blog/2014-02-20/customizing-emacs</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve tried many ways to build a clean testing environment for Emacs editor on my Ubuntu machine. One previous attempt showed a possible way to do so:</p>
+
+<p>```bash
+$ emacs -Q -l some_startup_script.el</p>
+
+<p>```</p>
+
+<p>But this solution doesn&rsquo;t show the real state of affairs when we load all the configuration files in Emacs. The <code>.emacs</code> file is loaded in the middle of the Emacs initialization, not at the end. See for details <a href="https://www.gnu.org/software/emacs/manual/html_node/elisp/Startup-Summary.html#Startup-Summary">39.1.1 Summary: Sequence of Actions at Startup</a>. One possible problem is that <code>package.el</code> loads its configuration before you&rsquo;ve done custom changes.</p>
+
+<p>For now I consider a better way starting Emacs from another user:</p>
+
+<p>```bash
+$ emacs -u emacstestuser</p>
+
+<p>```</p>
+
+<p>All customizations can be done in the <code>.emacs.d</code> directory from <code>emacstestuser</code>. The only thing you need is changing of user specific variables:</p>
+
+<p>```ruby .emacs</p>
+
+<p>(setq user-emacs-directory &ldquo;/home/emacstestuser/.emacs.d&rdquo;)</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>

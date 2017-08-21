@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: JRuby | BUCHSTABE]]></title>
+  <link href="http://buchstabe.github.io/blog/categories/jruby/atom.xml" rel="self"/>
+  <link href="http://buchstabe.github.io/"/>
+  <updated>2017-06-11T22:55:39+02:00</updated>
+  <id>http://buchstabe.github.io/</id>
+  <author>
+    <name><![CDATA[Buchstabe Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Calling Java from JRuby]]></title>
+    <link href="http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <updated>2013-10-02T14:54:00+02:00</updated>
+    <id>http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Calling Java </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">require</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">java</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span>
+</span><span class='line'><span class="n">java_import</span> <span class="n">my</span><span class="o">.</span><span class="n">package</span><span class="o">.</span><span class="n">CoolClass</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;obj1 = Java::CoolClass.new&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>
