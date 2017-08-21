@@ -1,5 +1,7 @@
 pages:
   stage: deploy
+  script:
+    - echo 'Publishing pages.'
   artifacts:
     paths:
       - public
