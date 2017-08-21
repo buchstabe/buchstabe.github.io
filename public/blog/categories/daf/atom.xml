@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: DaF | BUCHSTABE]]></title>
-  <link href="http://buchstabe.github.io/blog/categories/daf/atom.xml" rel="self"/>
-  <link href="http://buchstabe.github.io/"/>
-  <updated>2017-06-11T22:55:39+02:00</updated>
-  <id>http://buchstabe.github.io/</id>
+  <link href="http://buchstabe.gitlab.io/blog/categories/daf/atom.xml" rel="self"/>
+  <link href="http://buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:39:57+02:00</updated>
+  <id>http://buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Online Dictionaries]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-28/online-dictionaries/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-28/online-dictionaries/"/>
     <updated>2014-02-28T16:45:02+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-28/online-dictionaries</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-28/online-dictionaries</id>
     <content type="html"><![CDATA[<p>A couple of useful links:</p>
 
 <ul>
@@ -35,9 +35,9 @@
   
   <entry>
     <title type="html"><![CDATA[An Anki Model for German Nouns]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-06-21/an-anki-model-for-german-nouns/"/>
     <updated>2013-06-21T11:47:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-06-21/an-anki-model-for-german-nouns</id>
     <content type="html"><![CDATA[<p><a href="http://ankisrs.net/">Anki</a> is a great software piece dealing with <a href="http://en.wikipedia.org/wiki/Spaced_repetition">Spaced Repetition</a>.</p>
 
 <p>The second generation of Anki offers a different view on cards, notes, facts and layouts. Compared to the first version of this program, one may be confused by alternating definitions. But after a short period everything gets clear and logical.</p>

@@ -2,166 +2,166 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
-            http://buchstabe.github.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/
+            http://buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-02-24/ruby-koans/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-02-24/ruby-koans/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-02-24/zotero-group-for-selected-readings/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-02-24/zotero-group-for-selected-readings/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://buchstabe.github.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby/
+            http://buchstabe.gitlab.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby/
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-02-24/we-moved-to-octopress/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-02-24/we-moved-to-octopress/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-06-21/an-anki-model-for-german-nouns/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-07-05/capistrano-deployment-strategies/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://buchstabe.github.io/blog/2013-07-13/deleting-files-from-a-git-repository/
+            http://buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository/
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/
+            http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-10-11/rubinius-2-dot-0/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2013-10-18/new-plans-on-rubinius-development/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2013-10-18/new-plans-on-rubinius-development/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-12/adding-ignored-files-with-git/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration/
+            http://buchstabe.gitlab.io/blog/2014-02-14/using-sudo-for-system-administration/
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-16/crossplatform-uis-with-javafx/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-17/using-duckducgo/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-18/presentation-software-for-ubuntu/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-20/customizing-emacs/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-20/customizing-emacs/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2014-02-28/online-dictionaries/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2014-02-28/online-dictionaries/</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby/</loc>
         <lastmod>2017-06-11T22:55:23+02:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/components.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/components.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/getting-started.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/getting-started.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/javascript.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/javascript.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/customize.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/customize.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/css.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/css.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/</loc>
         <lastmod>2017-06-11T22:55:23+02:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/assets/bootstrap/about.html</loc>
+        <loc>http://buchstabe.gitlab.io/assets/bootstrap/about.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/robots.txt</loc>
+        <loc>http://buchstabe.gitlab.io/robots.txt</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/components.html</loc>
+        <loc>http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/components.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/getting-started.html
+            http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/getting-started.html
         </loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/javascript.html</loc>
+        <loc>http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/javascript.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/customize.html</loc>
+        <loc>http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/customize.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/css.html</loc>
+        <loc>http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/css.html</loc>
         <lastmod>2017-01-14T20:54:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/javascripts/libs/bootstrap-3.0.0/</loc>
+        <loc>http://buchstabe.gitlab.io/javascripts/libs/bootstrap-3.0.0/</loc>
         <lastmod>2017-06-11T22:55:23+02:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/</loc>
+        <loc>http://buchstabe.gitlab.io/</loc>
+        <lastmod>2017-08-21T18:34:58+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://buchstabe.gitlab.io/blog/archives/</loc>
         <lastmod>2017-06-11T22:55:23+02:00</lastmod>
     </url>
     <url>
-        <loc>http://buchstabe.github.io/blog/archives/</loc>
-        <lastmod>2017-06-11T22:55:23+02:00</lastmod>
-    </url>
-    <url>
-        <loc>http://buchstabe.github.io/blog/</loc>
+        <loc>http://buchstabe.gitlab.io/blog/</loc>
         <lastmod>2017-06-11T22:55:23+02:00</lastmod>
     </url>
 </urlset>

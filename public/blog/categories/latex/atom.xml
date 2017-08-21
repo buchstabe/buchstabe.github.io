@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: LaTeX | BUCHSTABE]]></title>
-  <link href="http://buchstabe.github.io/blog/categories/latex/atom.xml" rel="self"/>
-  <link href="http://buchstabe.github.io/"/>
-  <updated>2017-06-11T22:55:39+02:00</updated>
-  <id>http://buchstabe.github.io/</id>
+  <link href="http://buchstabe.gitlab.io/blog/categories/latex/atom.xml" rel="self"/>
+  <link href="http://buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:39:57+02:00</updated>
+  <id>http://buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Presentation Software for Ubuntu]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
     <updated>2014-02-18T14:52:55+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
     <content type="html"><![CDATA[<p>Today we want to share a great project with you: A pdf presentation software for LaTeX Beamer. Give it a try and you&rsquo;ll love it: <a href="https://github.com/dannyedel/dspdfviewer">https://github.com/dannyedel/dspdfviewer</a></p>
 ]]></content>
   </entry>

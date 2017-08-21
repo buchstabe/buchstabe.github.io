@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[BUCHSTABE]]></title>
-  <link href="http://buchstabe.github.io/atom.xml" rel="self"/>
-  <link href="http://buchstabe.github.io/"/>
-  <updated>2017-06-11T22:55:39+02:00</updated>
-  <id>http://buchstabe.github.io/</id>
+  <link href="http://buchstabe.gitlab.io/atom.xml" rel="self"/>
+  <link href="http://buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:39:57+02:00</updated>
+  <id>http://buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Non web tasks in Ruby]]></title>
-    <link href="http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
     <updated>2017-06-11T22:53:19+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
+    <id>http://buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
     <content type="html"><![CDATA[<p>Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:</p>
 
 <ul>
@@ -31,9 +31,9 @@
   
   <entry>
     <title type="html"><![CDATA[Online Dictionaries]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-28/online-dictionaries/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-28/online-dictionaries/"/>
     <updated>2014-02-28T16:45:02+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-28/online-dictionaries</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-28/online-dictionaries</id>
     <content type="html"><![CDATA[<p>A couple of useful links:</p>
 
 <ul>
@@ -51,9 +51,9 @@
   
   <entry>
     <title type="html"><![CDATA[Customizing Emacs]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-20/customizing-emacs/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-20/customizing-emacs/"/>
     <updated>2014-02-20T14:41:30+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-20/customizing-emacs</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-20/customizing-emacs</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve tried many ways to build a clean testing environment for Emacs editor on my Ubuntu machine. One previous attempt showed a possible way to do so:</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -81,27 +81,27 @@
   
   <entry>
     <title type="html"><![CDATA[Presentation Software for Ubuntu]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-18/presentation-software-for-ubuntu/"/>
     <updated>2014-02-18T14:52:55+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-18/presentation-software-for-ubuntu</id>
     <content type="html"><![CDATA[<p>Today we want to share a great project with you: A pdf presentation software for LaTeX Beamer. Give it a try and you&rsquo;ll love it: <a href="https://github.com/dannyedel/dspdfviewer">https://github.com/dannyedel/dspdfviewer</a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Using DuckDucGo]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-17/using-duckducgo/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo/"/>
     <updated>2014-02-17T13:16:53+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-17/using-duckducgo</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo</id>
     <content type="html"><![CDATA[<p><a href="https://duckduckgo.com">DuckDuckGo</a> is a wonderful and very capable search engine backed by <a href="https://ya.ru">Yandex</a>. Use it!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Crossplatform UIs with JavaFX]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-16/crossplatform-uis-with-javafx/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx/"/>
     <updated>2014-02-16T20:26:43+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-16/crossplatform-uis-with-javafx</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx</id>
     <content type="html"><![CDATA[<p>An amazing presentation of a Demo written with JavaFX on MacOS, iOS, Android.</p>
 
 <div class="embed-video-container"><iframe src="http://www.youtube.com/embed/a3dAteWr40k "></iframe></div>
@@ -111,9 +111,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using sudo for system administration]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-14/using-sudo-for-system-administration/"/>
     <updated>2014-02-14T16:37:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-14/using-sudo-for-system-administration</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-14/using-sudo-for-system-administration</id>
     <content type="html"><![CDATA[<p>We can face the situation with restricted rights on a server. This is a use case for <code>sudo</code>. You can get restricted access to specific commands as <code>root</code>, but not to the whole system, which is very good!</p>
 
 <p>I need access to <code>virt-top</code> to monitor kvm based virtual machines on a big host system. Add the following line to <code>sudoers</code> file:</p>
@@ -137,9 +137,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adding ignored files with Git]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-12/adding-ignored-files-with-git/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git/"/>
     <updated>2014-02-12T13:09:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-12/adding-ignored-files-with-git</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git</id>
     <content type="html"><![CDATA[<p>Today I&rsquo;ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
 
 <figure class='code'><figcaption><span>.gitignore</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -160,9 +160,9 @@
   
   <entry>
     <title type="html"><![CDATA[New plans on Rubinius' development]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-10-18/new-plans-on-rubinius-development/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-10-18/new-plans-on-rubinius-development/"/>
     <updated>2013-10-18T13:48:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-10-18/new-plans-on-rubinius-development</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-10-18/new-plans-on-rubinius-development</id>
     <content type="html"><![CDATA[<p>A new milestone  in the Rubinius&#8217; development has been announced on October, 15th. The new project is called <em>Rubinius X</em> and should simplify obstacles in the Ruby world.</p>
 
 <p><a href="http://x.rubini.us/">Rubinius X</a> aims to create a new industry friendly Ruby environment which should prevent the endangered Ruby language from <a href="http://www.reddit.com/r/programming/comments/1oi8wd/ruby_is_a_dying_language/">dying</a>.</p>
@@ -171,18 +171,18 @@
   
   <entry>
     <title type="html"><![CDATA[Rubinius 2.0]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-10-11/rubinius-2-dot-0/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0/"/>
     <updated>2013-10-11T12:57:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-10-11/rubinius-2-dot-0</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0</id>
     <content type="html"><![CDATA[<p>On October, 4th the Rubinius team announced the release of Rubinius 2.0. There are many exciting things to share. Look inside <a href="http://rubini.us/2013/10/04/rubinius-2-0-released/">Rubinius 2.0</a>!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Calling Java from JRuby]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
     <updated>2013-10-02T14:54:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
     <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
 
 <figure class='code'><figcaption><span>Calling Java </span></figcaption>
@@ -203,9 +203,9 @@
   
   <entry>
     <title type="html"><![CDATA[Packaging ruby applications for Debian based systems]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
     <updated>2013-07-14T21:40:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
     <content type="html"><![CDATA[<p>Since I packaged my Ruby programs for the last time things changed a lot.</p>
 
 <p>I&rsquo;m going to refresh my knowledge and collect some useful links in the first step:</p>
@@ -225,9 +225,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deleting files from a Git repository]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-07-13/deleting-files-from-a-git-repository/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository/"/>
     <updated>2013-07-13T15:28:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-07-13/deleting-files-from-a-git-repository</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository</id>
     <content type="html"><![CDATA[<p>Suppose you have been working for a long time on a project, and now you want to delete some files from you project because &hellip; (the reason does not really matter at this point).</p>
 
 <p>You may want to completely erase a file or a whole directory from your repository. The file or directory may be kept in the local copy or deleted as well.</p>
@@ -268,9 +268,9 @@
   
   <entry>
     <title type="html"><![CDATA[Capistrano: deployment strategies]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
     <updated>2013-07-05T12:57:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-07-05/capistrano-deployment-strategies</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies</id>
     <content type="html"><![CDATA[<p><a href="http://www.capistranorb.com">Capistrano</a> is a  tool for remote server <em>automation</em> and <em>deployment</em>. We have to underline these two task as they will remain two different areas for a long time. Historicaly <em>Capistrano</em> was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using <em>Capistrano</em>.</p>
 
 <p>Capistrano supports the idea of deployment strategies. Strictly speaking they are the way, how the source code goes to the remote machine. We can distinguish between <em>local</em> and <em>remote</em> strategies.</p>
@@ -315,9 +315,9 @@
   
   <entry>
     <title type="html"><![CDATA[Berkeley Parser: Introduction]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction/"/>
     <updated>2013-06-26T12:27:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-06-26/berkeley-parser-introduction</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction</id>
     <content type="html"><![CDATA[<p><a href="https://code.google.com/p/berkeleyparser/">Berkeley Parser</a> is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.</p>
 
 <p>The parser itself and a grammar for one of provided languages here from its <a href="https://code.google.com/p/berkeleyparser/downloads/list">repository</a> at Google code. For now pretrained grammars are offered for English, German, French, Bulgarian, Arabic and Chinese.</p>
@@ -334,15 +334,15 @@
 
 <p>The resulted analysis is by far not ideal but it is a good beginning:</p>
 
-<p><img class="center" src="http://buchstabe.github.io/images/garden-path-sentence.png" title="Garden path sentence" alt="Garden path sentence"></p>
+<p><img class="center" src="http://buchstabe.gitlab.io/images/garden-path-sentence.png" title="Garden path sentence" alt="Garden path sentence"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[An Anki Model for German Nouns]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-06-21/an-anki-model-for-german-nouns/"/>
     <updated>2013-06-21T11:47:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-06-21/an-anki-model-for-german-nouns</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-06-21/an-anki-model-for-german-nouns</id>
     <content type="html"><![CDATA[<p><a href="http://ankisrs.net/">Anki</a> is a great software piece dealing with <a href="http://en.wikipedia.org/wiki/Spaced_repetition">Spaced Repetition</a>.</p>
 
 <p>The second generation of Anki offers a different view on cards, notes, facts and layouts. Compared to the first version of this program, one may be confused by alternating definitions. But after a short period everything gets clear and logical.</p>
@@ -393,18 +393,18 @@
   
   <entry>
     <title type="html"><![CDATA[We moved to Octopress!]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-02-24/we-moved-to-octopress/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/we-moved-to-octopress/"/>
     <updated>2013-02-24T22:07:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-02-24/we-moved-to-octopress</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-02-24/we-moved-to-octopress</id>
     <content type="html"><![CDATA[<p>We&rsquo;ve just moved to <a href="http://octopress.org/">Octopress</a> and are very happy! Follow us on this new plattform.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Data Structures and Algorithms in Ruby]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby/"/>
     <updated>2013-02-24T18:50:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-02-24/data-structures-and-algorithms-in-ruby</id>
     <content type="html"><![CDATA[<p>There are a lot of good and excellent introductions and advanced books
 on algorithmic design. Many of them describe the topic in a language
 agnostic way, some others concentrate on a particular language (e.g.
@@ -419,9 +419,9 @@ structures in Ruby.</p>
   
   <entry>
     <title type="html"><![CDATA[Zotero group for selected readings]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-02-24/zotero-group-for-selected-readings/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/zotero-group-for-selected-readings/"/>
     <updated>2013-02-24T18:49:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-02-24/zotero-group-for-selected-readings</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-02-24/zotero-group-for-selected-readings</id>
     <content type="html"><![CDATA[<p>
     I&#39;ve just decided to create a group on <a href="https://www.zotero.org/groups/arbox/items">Zotero</a> to keep some bibliographic notes. Books, articles and notes I find notable will be stored there.</p>
 
@@ -430,9 +430,9 @@ structures in Ruby.</p>
   
   <entry>
     <title type="html"><![CDATA[Ruby Koans]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-02-24/ruby-koans/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/ruby-koans/"/>
     <updated>2013-02-24T18:48:00+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-02-24/ruby-koans</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-02-24/ruby-koans</id>
     <content type="html"><![CDATA[<p>
     If you are interested in a programmatic way to learn some aspects of <a href="http://www.ruby-lang.org/en">Ruby</a>, your might want to look at <a href="http://rubykoans.com/">Ruby Koans</a>.</p>
 

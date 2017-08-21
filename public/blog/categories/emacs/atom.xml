@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Emacs | BUCHSTABE]]></title>
-  <link href="http://buchstabe.github.io/blog/categories/emacs/atom.xml" rel="self"/>
-  <link href="http://buchstabe.github.io/"/>
-  <updated>2017-06-11T22:55:39+02:00</updated>
-  <id>http://buchstabe.github.io/</id>
+  <link href="http://buchstabe.gitlab.io/blog/categories/emacs/atom.xml" rel="self"/>
+  <link href="http://buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:39:57+02:00</updated>
+  <id>http://buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Customizing Emacs]]></title>
-    <link href="http://buchstabe.github.io/blog/2014-02-20/customizing-emacs/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2014-02-20/customizing-emacs/"/>
     <updated>2014-02-20T14:41:30+01:00</updated>
-    <id>http://buchstabe.github.io/blog/2014-02-20/customizing-emacs</id>
+    <id>http://buchstabe.gitlab.io/blog/2014-02-20/customizing-emacs</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve tried many ways to build a clean testing environment for Emacs editor on my Ubuntu machine. One previous attempt showed a possible way to do so:</p>
 
 <p>```bash

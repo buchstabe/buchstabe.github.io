@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: JRuby | BUCHSTABE]]></title>
-  <link href="http://buchstabe.github.io/blog/categories/jruby/atom.xml" rel="self"/>
-  <link href="http://buchstabe.github.io/"/>
-  <updated>2017-06-11T22:55:39+02:00</updated>
-  <id>http://buchstabe.github.io/</id>
+  <link href="http://buchstabe.gitlab.io/blog/categories/jruby/atom.xml" rel="self"/>
+  <link href="http://buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:39:57+02:00</updated>
+  <id>http://buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Calling Java from JRuby]]></title>
-    <link href="http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <link href="http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
     <updated>2013-10-02T14:54:00+02:00</updated>
-    <id>http://buchstabe.github.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <id>http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
     <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Calling Java </span></figcaption>
