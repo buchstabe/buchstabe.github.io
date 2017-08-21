@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Git | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/git/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/git/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Adding ignored files with Git]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git/"/>
+    <link href="buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git/"/>
     <updated>2014-02-12T13:09:00+01:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git</id>
+    <id>buchstabe.gitlab.io/blog/2014-02-12/adding-ignored-files-with-git</id>
     <content type="html"><![CDATA[<p>Today I&rsquo;ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
 
 <p><code>bash .gitignore
@@ -37,9 +37,9 @@ $ git add -f file1.pdf file2.pdf</p>
   
   <entry>
     <title type="html"><![CDATA[Deleting files from a Git repository]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository/"/>
     <updated>2013-07-13T15:28:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository</id>
+    <id>buchstabe.gitlab.io/blog/2013-07-13/deleting-files-from-a-git-repository</id>
     <content type="html"><![CDATA[<p>Suppose you have been working for a long time on a project, and now you want to delete some files from you project because &hellip; (the reason does not really matter at this point).</p>
 
 <p>You may want to completely erase a file or a whole directory from your repository. The file or directory may be kept in the local copy or deleted as well.</p>

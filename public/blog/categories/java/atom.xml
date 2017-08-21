@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Java | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/java/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/java/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Crossplatform UIs with JavaFX]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx/"/>
+    <link href="buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx/"/>
     <updated>2014-02-16T20:26:43+01:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx</id>
+    <id>buchstabe.gitlab.io/blog/2014-02-16/crossplatform-uis-with-javafx</id>
     <content type="html"><![CDATA[<p>An amazing presentation of a Demo written with JavaFX on MacOS, iOS, Android.
 <div class="embed-video-container"><iframe src="http://www.youtube.com/embed/a3dAteWr40k "></iframe></div></p>
 ]]></content>
@@ -25,9 +25,9 @@
   
   <entry>
     <title type="html"><![CDATA[Calling Java from JRuby]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
     <updated>2013-10-02T14:54:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <id>buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
     <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Calling Java </span></figcaption>

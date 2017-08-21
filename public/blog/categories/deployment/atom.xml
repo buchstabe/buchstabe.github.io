@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Deployment | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/deployment/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/deployment/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Capistrano: deployment strategies]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
     <updated>2013-07-05T12:57:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies</id>
+    <id>buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies</id>
     <content type="html"><![CDATA[<p><a href="http://www.capistranorb.com">Capistrano</a> is a  tool for remote server <em>automation</em> and <em>deployment</em>. We have to underline these two task as they will remain two different areas for a long time. Historicaly <em>Capistrano</em> was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using <em>Capistrano</em>.</p>
 
 <p>Capistrano supports the idea of deployment strategies. Strictly speaking they are the way, how the source code goes to the remote machine. We can distinguish between <em>local</em> and <em>remote</em> strategies.</p>
@@ -61,9 +61,9 @@
   
   <entry>
     <title type="html"><![CDATA[Capistrano deployment strategies: deploy via a copy]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/"/>
     <updated>2013-02-24T18:39:00+01:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy</id>
+    <id>buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/capistrano/capistrano">Capistrano</a> presents a very
 convinient way to manage your remotely deployed applications and
 websites. It has initially been developed for Rails deployment. But it

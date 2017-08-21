@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: nlp | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/nlp/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/nlp/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Non web tasks in Ruby]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
+    <link href="buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby/"/>
     <updated>2017-06-11T22:53:19+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
+    <id>buchstabe.gitlab.io/blog/2017-06-11/non-web-tasks-in-ruby</id>
     <content type="html"><![CDATA[<p>Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:</p>
 
 <ul>

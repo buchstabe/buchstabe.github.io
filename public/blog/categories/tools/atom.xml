@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tools | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/tools/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/tools/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using DuckDucGo]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo/"/>
+    <link href="buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo/"/>
     <updated>2014-02-17T13:16:53+01:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo</id>
+    <id>buchstabe.gitlab.io/blog/2014-02-17/using-duckducgo</id>
     <content type="html"><![CDATA[<p><a href="https://duckduckgo.com">DuckDuckGo</a> is a wonderful and very capable search engine backed by <a href="https://ya.ru">Yandex</a>. Use it!</p>
 ]]></content>
   </entry>

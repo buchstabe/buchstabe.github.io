@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Parsing | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/parsing/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/parsing/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Berkeley Parser: Introduction]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction/"/>
     <updated>2013-06-26T12:27:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction</id>
+    <id>buchstabe.gitlab.io/blog/2013-06-26/berkeley-parser-introduction</id>
     <content type="html"><![CDATA[<p><a href="https://code.google.com/p/berkeleyparser/">Berkeley Parser</a> is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.</p>
 
 <p>The parser itself and a grammar for one of provided languages here from its <a href="https://code.google.com/p/berkeleyparser/downloads/list">repository</a> at Google code. For now pretrained grammars are offered for English, German, French, Bulgarian, Arabic and Chinese.</p>

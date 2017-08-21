@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Rubinius 2.0]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0/"/>
     <updated>2013-10-11T12:57:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0</id>
+    <id>buchstabe.gitlab.io/blog/2013-10-11/rubinius-2-dot-0</id>
     <content type="html"><![CDATA[<p>On October, 4th the Rubinius team announced the release of Rubinius 2.0. There are many exciting things to share. Look inside <a href="http://rubini.us/2013/10/04/rubinius-2-0-released/">Rubinius 2.0</a>!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Calling Java from JRuby]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby/"/>
     <updated>2013-10-02T14:54:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
+    <id>buchstabe.gitlab.io/blog/2013-10-02/calling-java-from-jruby</id>
     <content type="html"><![CDATA[<p>How to call Java from JRuby?</p>
 
 <p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Calling Java </span></figcaption>
@@ -48,9 +48,9 @@
   
   <entry>
     <title type="html"><![CDATA[Packaging ruby applications for Debian based systems]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
     <updated>2013-07-14T21:40:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
+    <id>buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
     <content type="html"><![CDATA[<p>Since I packaged my Ruby programs for the last time things changed a lot.</p>
 
 <p>I&rsquo;m going to refresh my knowledge and collect some useful links in the first step:</p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[Capistrano: deployment strategies]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies/"/>
     <updated>2013-07-05T12:57:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies</id>
+    <id>buchstabe.gitlab.io/blog/2013-07-05/capistrano-deployment-strategies</id>
     <content type="html"><![CDATA[<p><a href="http://www.capistranorb.com">Capistrano</a> is a  tool for remote server <em>automation</em> and <em>deployment</em>. We have to underline these two task as they will remain two different areas for a long time. Historicaly <em>Capistrano</em> was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using <em>Capistrano</em>.</p>
 
 <p>Capistrano supports the idea of deployment strategies. Strictly speaking they are the way, how the source code goes to the remote machine. We can distinguish between <em>local</em> and <em>remote</em> strategies.</p>
@@ -116,9 +116,9 @@
   
   <entry>
     <title type="html"><![CDATA[Capistrano deployment strategies: deploy via a copy]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy/"/>
     <updated>2013-02-24T18:39:00+01:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy</id>
+    <id>buchstabe.gitlab.io/blog/2013-02-24/capistrano-deployment-strategies-deploy-via-a-copy</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/capistrano/capistrano">Capistrano</a> presents a very
 convinient way to manage your remotely deployed applications and
 websites. It has initially been developed for Rails deployment. But it

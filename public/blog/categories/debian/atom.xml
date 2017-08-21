@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Debian | BUCHSTABE]]></title>
-  <link href="http://buchstabe.gitlab.io/blog/categories/debian/atom.xml" rel="self"/>
-  <link href="http://buchstabe.gitlab.io/"/>
-  <updated>2017-08-21T18:39:57+02:00</updated>
-  <id>http://buchstabe.gitlab.io/</id>
+  <link href="buchstabe.gitlab.io/blog/categories/debian/atom.xml" rel="self"/>
+  <link href="buchstabe.gitlab.io/"/>
+  <updated>2017-08-21T18:58:56+02:00</updated>
+  <id>buchstabe.gitlab.io/</id>
   <author>
     <name><![CDATA[Buchstabe Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Packaging ruby applications for Debian based systems]]></title>
-    <link href="http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
+    <link href="buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems/"/>
     <updated>2013-07-14T21:40:00+02:00</updated>
-    <id>http://buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
+    <id>buchstabe.gitlab.io/blog/2013-07-14/packaging-ruby-application-for-debian-based-systems</id>
     <content type="html"><![CDATA[<p>Since I packaged my Ruby programs for the last time things changed a lot.</p>
 
 <p>I&rsquo;m going to refresh my knowledge and collect some useful links in the first step:</p>
