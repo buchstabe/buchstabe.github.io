@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: buchstabe.gitlab.io/sitemap.xml 
