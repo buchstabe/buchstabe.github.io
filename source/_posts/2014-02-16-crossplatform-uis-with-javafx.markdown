@@ -8,4 +8,3 @@ categories: Java JavaFX
 ---
 
 An amazing presentation of a Demo written with JavaFX on MacOS, iOS, Android.
-{% youtube a3dAteWr40k %}

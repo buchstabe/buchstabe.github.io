@@ -13,11 +13,9 @@ The parser itself and a grammar for one of provided languages here from its [rep
 
 We've downloaded the parser archive and the English grammar. Let's try to produce some meaningful output:
 
-{% codeblock Berkeley Parser Invocation lang:sh %}
+``` shell
 $ echo "The horse raced past the barn fell ." | \
 $ java -jar BerkeleyParser-1.7.jar -gr eng_sm6.gr
-{% endcodeblock %}
+```
 
 The resulted analysis is by far not ideal but it is a good beginning:
-
-{% img center /images/garden-path-sentence.png 'Garden path sentence' 'Garden path sentence' %}

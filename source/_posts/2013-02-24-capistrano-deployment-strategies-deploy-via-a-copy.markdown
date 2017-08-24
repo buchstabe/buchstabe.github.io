@@ -38,9 +38,9 @@ The above text means: if you're using a local scm repository which
 cannot be accessed from the remote machine, you can use only the copy
 strategy. In that case you use the code:
 
-{% codeblock lang:ruby %}
+``` ruby
 	set :deploy_via, :copy
-{% endcodeblock %}
+```
 
 For more details consider to read the Capistrano source code:
 [https://github.com/capistrano/capistrano/tree/master/lib/capistrano/recipes/deploy/strategy](https://github.com/capistrano/capistrano/tree/master/lib/capistrano/recipes/deploy/strategy)

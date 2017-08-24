@@ -24,20 +24,16 @@ The trick is to combine these field with the help of card layouts. Using only 6 
 
 Here the examples of the front card side:
 
-{% codeblock %}
-{% raw %}
-
+```
 {{Wortform}}
 <br>
 {{#Beispiel}}{{Beispiel}}{{/Beispiel}}
 
-{%endraw%}
-{%endcodeblock%}
+```
+
+``` shell
 
 The corresponding back side can be encoding as follows:
-
-{% codeblock %}
-{% raw %}
 
 {{Artikel}} {{Wortform}}
 <span style='color: red; font-size: 16px'>{{Paradigma}}</span>
@@ -46,7 +42,6 @@ The corresponding back side can be encoding as follows:
 <hr id=answer>
 {{Bedeutung}}
 
-{%endraw%}
-{%endcodeblock%}
+```
 
 You may want to experiment with colors and font properties. HMTL to rescue :)

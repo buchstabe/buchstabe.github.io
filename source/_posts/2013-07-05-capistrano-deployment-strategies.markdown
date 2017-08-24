@@ -15,7 +15,7 @@ Local strategies have only one member, the _copy_ strategy. Remote strategies sp
 
 If you have a static site or do not want to use a SCM for deployment look at the following code snippet:
 
-{% codeblock A fragment from Capfile lang:ruby %}
+``` ruby
 set :repository,  "./source_dir" # This is our directory with the content to be deployed.
 set :scm, :none # Do not use any SCM.
 
@@ -24,7 +24,8 @@ set :deploy_via, :copy # We are going to deploy using the copy strategy.
 
 set :copy_dir, './tmp/capistrano' # Here we create a temporary archive with our content.
 set :copy_remote_dir, "#{deploy_to}/tmp/capistrano" # There the archive will be copied.
-{% endcodeblock %}
+
+```
 
 You have to ensure that both local and remote directories for archives exist.
 

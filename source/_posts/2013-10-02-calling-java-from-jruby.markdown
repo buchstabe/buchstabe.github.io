@@ -9,10 +9,11 @@ categories: JRuby Ruby Java
 
 How to call Java from JRuby?
 
-{% codeblock Calling Java lang:ruby %}
+``` ruby
+
 require 'java'
 java_import my.package.CoolClass
 
 obj1 = Java::CoolClass.new
 
-{% endcodeblock %}
+```
