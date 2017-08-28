@@ -14,6 +14,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-seo-tag
   - jekyll-sitemap
 exclude:
   - Gemfile
@@ -28,3 +29,4 @@ permalink: /notebook/:year/:month/:title.html
 keep_files:
   - CNAME
   - .git
+yandex_metrica: true
