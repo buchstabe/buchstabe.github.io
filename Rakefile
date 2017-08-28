@@ -1,31 +1,31 @@
-require "rubygems"
-require "bundler/setup"
-require "stringex"
+require 'rubygems'
+require 'bundler/setup'
+require 'stringex'
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
-ssh_port       = "22"
-document_root  = "~/website.com/"
+ssh_user       = 'user@domain.com'
+ssh_port       = '22'
+document_root  = '~/website.com/'
 rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "push"
+rsync_args     = '' # Any extra arguments to pass to rsync
+deploy_default = 'push'
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "master"
+deploy_branch  = 'master'
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public"    # compiled site directory
-source_dir      = "source"    # source file directory
-blog_index_dir  = 'source/blog'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
-deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
-stash_dir       = "_stash"    # directory to stash posts for speedy generation
-posts_dir       = "_posts"    # directory for blog files
-themes_dir      = ".themes"   # directory for blog files
-new_post_ext    = "markdown"  # default new post file extension when using the new_post task
-new_page_ext    = "markdown"  # default new page file extension when using the new_page task
-server_port     = "4000"      # port for preview server eg. localhost:4000
+public_dir      = 'public'    # compiled site directory
+source_dir      = 'source'    # source file directory
+blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
+deploy_dir      = '_deploy'   # deploy directory (for Github pages deployment)
+stash_dir       = '_stash'    # directory to stash posts for speedy generation
+posts_dir       = '_posts'    # directory for blog files
+themes_dir      = '.themes'   # directory for blog files
+new_post_ext    = 'markdown'  # default new post file extension when using the new_post task
+new_page_ext    = 'markdown'  # default new page file extension when using the new_page task
+server_port     = '4000'      # port for preview server eg. localhost:4000
 
 if (/cygwin|mswin|mingw|bccwin|wince|emx/ =~ RUBY_PLATFORM) != nil
   puts '## Set the codepage to 65001 for Windows machines'
@@ -57,7 +57,7 @@ task :generate do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
-  system "jekyll"
+  system "jekyll build"
 end
 
 desc "Watch the site and regenerate when it changes"
@@ -65,7 +65,7 @@ task :watch do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "Starting to watch source with Jekyll and Compass."
   system "compass compile --css-dir #{source_dir}/stylesheets" unless File.exist?("#{source_dir}/stylesheets/screen.css")
-  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll --auto")
+  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll build --watch")
   compassPid = Process.spawn("compass watch")
 
   trap("INT") {
@@ -81,7 +81,7 @@ task :preview do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "Starting to watch source with Jekyll and Compass. Starting Rack on port #{server_port}"
   system "compass compile --css-dir #{source_dir}/stylesheets" unless File.exist?("#{source_dir}/stylesheets/screen.css")
-  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll --auto")
+  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll build --watch")
   compassPid = Process.spawn("compass watch")
   rackupPid = Process.spawn("rackup --port #{server_port}")
 
@@ -101,19 +101,26 @@ task :new_post, :title do |t, args|
   else
     title = get_stdin("Enter a title for your post: ")
   end
-  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+
+  unless File.directory?(source_dir)
+    raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme."
+  end
+
   mkdir_p "#{source_dir}/#{posts_dir}"
+
   filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
+
   puts "Creating new post: #{filename}"
+
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
-    post.puts "author: Andrei Beliankou"
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
@@ -123,9 +130,14 @@ end
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
 desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
 task :new_page, :filename do |t, args|
-  raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
+  unless File.directory?(source_dir)
+    raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme."
+  end
+
   args.with_defaults(:filename => 'new-page')
+
   page_dir = [source_dir]
+
   if args.filename.downcase =~ /(^.+\/)?(.+)/
     filename, dot, extension = $2.rpartition('.').reject(&:empty?)         # Get filename and extension
     title = filename
@@ -176,7 +188,7 @@ end
 
 desc "Clean out caches: .pygments-cache, .gist-cache, .sass-cache"
 task :clean do
-  rm_rf [".pygments-cache/**", ".gist-cache/**", ".sass-cache/**", "source/stylesheets/screen.css"]
+  rm_rf [Dir.glob(".pygments-cache/**"), Dir.glob(".gist-cache/**"), Dir.glob(".sass-cache/**"), "source/stylesheets/screen.css"]
 end
 
 desc "Move sass to sass.old, install sass theme updates, replace sass/custom with sass.old/custom"
@@ -188,8 +200,8 @@ task :update_style, :theme do |t, args|
   end
   mv "sass", "sass.old"
   puts "## Moved styles into sass.old/"
-  cp_r "#{themes_dir}/"+theme+"/sass/", "sass"
-  cp_r "sass/custom/.", "sass.old/custom"
+  cp_r "#{themes_dir}/"+theme+"/sass/", "sass", :remove_destination=>true
+  cp_r "sass.old/custom/.", "sass/custom/", :remove_destination=>true
   puts "## Updated Sass ##"
 end
 
@@ -239,22 +251,22 @@ task :copydot, :source, :dest do |t, args|
   end
 end
 
-desc "Deploy website via rsync"
+desc 'Deploy website via rsync'
 task :rsync do
-  exclude = ""
-  if File.exists?('./rsync-exclude')
+  exclude = ''
+  if File.exist?('./rsync-exclude')
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
-  puts "## Deploying website via Rsync"
+  puts '## Deploying website via Rsync'
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{rsync_args} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
 
-desc "deploy public directory to github pages"
+desc 'deploy public directory to github pages'
 multitask :push do
-  puts "## Deploying branch to Github Pages "
-  puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
-    system "git pull"
+  puts '## Deploying branch to Github Pages '
+  puts '## Pulling any updates from Github Pages '
+  cd "#{deploy_dir}" do
+    Bundler.with_clean_env { system "git pull" }
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
   Rake::Task[:copydot].invoke(public_dir, deploy_dir)
@@ -262,16 +274,16 @@ multitask :push do
   cp_r "#{public_dir}/.", deploy_dir
   cd "#{deploy_dir}" do
     system "git add -A"
-    puts "\n## Committing: Site updated at #{Time.now.utc}"
     message = "Site updated at #{Time.now.utc}"
+    puts "\n## Committing: #{message}"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
-    system "git push origin #{deploy_branch}"
+    Bundler.with_clean_env { system "git push origin #{deploy_branch}" }
     puts "\n## Github Pages deploy complete"
   end
 end
 
-desc "Update configurations to support publishing to root or sub directory"
+desc 'Update configurations to support publishing to root or sub directory'
 task :set_root_dir, :dir do |t, args|
   puts ">>> !! Please provide a directory, eg. rake config_dir[publishing/subdirectory]" unless args.dir
   if args.dir
@@ -306,13 +318,13 @@ task :set_root_dir, :dir do |t, args|
   end
 end
 
-desc "Set up _deploy folder and deploy branch for Github Pages deployment"
+desc 'Set up _deploy folder and deploy branch for Github Pages deployment'
 task :setup_github_pages, :repo do |t, args|
   if args.repo
     repo_url = args.repo
   else
-    puts "Enter the read/write url for your repository"
-    puts "(For example, 'git@github.com:your_username/your_username.github.io.git)"
+    puts 'Enter the read/write url for your repository'
+    puts "(For example, 'git@github.com:your_username/your_username.github.io.git')"
     puts "           or 'https://github.com/your_username/your_username.github.io')"
     repo_url = get_stdin("Repository url: ")
   end
@@ -323,7 +335,7 @@ task :setup_github_pages, :repo do |t, args|
     user = repo_url.match(/github\.com\/([^\/]+)/)[1]
   end
   branch = (repo_url.match(/\/[\w-]+\.github\.(?:io|com)/).nil?) ? 'gh-pages' : 'master'
-  project = (branch == 'gh-pages') ? repo_url.match(/\/([^\.]+)/)[1] : ''
+  project = (branch == 'gh-pages') ? repo_url.match(/([^\/]+?)(\.git|$)/i)[1] : ''
   unless (`git remote -v` =~ /origin.+?octopress(?:\.git)?/).nil?
     # If octopress is still the origin remote (from cloning) rename it to octopress
     system "git remote rename origin octopress"
@@ -342,8 +354,9 @@ task :setup_github_pages, :repo do |t, args|
       end
     end
   end
+  url = blog_url(user, project, source_dir)
   jekyll_config = IO.read('_config.yml')
-  jekyll_config.sub!(/^url:.*$/, "url: #{blog_url(user, project)}")
+  jekyll_config.sub!(/^url:.*$/, "url: #{url}")
   File.open('_config.yml', 'w') do |f|
     f.write jekyll_config
   end
@@ -351,7 +364,7 @@ task :setup_github_pages, :repo do |t, args|
   mkdir deploy_dir
   cd "#{deploy_dir}" do
     system "git init"
-    system "echo 'My Octopress Page is coming soon &hellip;' > index.html"
+    system 'echo "My Octopress Page is coming soon &hellip;" > index.html'
     system "git add ."
     system "git commit -m \"Octopress init\""
     system "git branch -m gh-pages" unless branch == 'master'
@@ -367,11 +380,7 @@ task :setup_github_pages, :repo do |t, args|
 end
 
 def ok_failed(condition)
-  if (condition)
-    puts "OK"
-  else
-    puts "FAILED"
-  end
+  puts condition ? 'OK' : 'FAILED'
 end
 
 def get_stdin(message)
@@ -381,24 +390,29 @@ end
 
 def ask(message, valid_options)
   if valid_options
-    answer = get_stdin("#{message} #{valid_options.to_s.gsub(/\"/, '').gsub(/, /,'/')} ") while !valid_options.include?(answer)
+    until valid_options.include?(answer)
+      answer = get_stdin("#{message} #{valid_options.to_s.gsub(/"/, '').gsub(/, /,'/')} ")
+    end
   else
     answer = get_stdin(message)
   end
+
   answer
 end
 
-def blog_url(user, project)
-  url = if File.exists?('source/CNAME')
-    "http://#{IO.read('source/CNAME').strip}"
-  else
-    "http://#{user}.github.io"
-  end
+def blog_url(user, project, source_dir)
+  cname = "#{source_dir}/CNAME"
+  url = if File.exist?(cname)
+          "http://#{IO.read(cname).strip}"
+        else
+          "http://#{user.downcase}.github.io"
+        end
   url += "/#{project}" unless project == ''
+
   url
 end
 
-desc "list tasks"
+desc 'list task'
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"

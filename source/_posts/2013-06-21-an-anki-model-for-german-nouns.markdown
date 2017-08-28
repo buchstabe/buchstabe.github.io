@@ -25,23 +25,21 @@ The trick is to combine these field with the help of card layouts. Using only 6 
 Here the examples of the front card side:
 
 ```
-{{Wortform}}
-<br>
-{{#Beispiel}}{{Beispiel}}{{/Beispiel}}
+    {{Wortform}}
+    <br>
+    {{Beispiel}}{{Beispiel}}{{Beispiel}}
 
 ```
 
-``` shell
+```
+    The corresponding back side can be encoding as follows:
 
-The corresponding back side can be encoding as follows:
-
-{{Artikel}} {{Wortform}}
-<span style='color: red; font-size: 16px'>{{Paradigma}}</span>
-<br>
-{{#Aussprache}}{{Aussprache}}{{/Aussprache}}
-<hr id=answer>
-{{Bedeutung}}
-
+    {{Artikel}} {{Wortform}}
+    <span style='color: red; font-size: 16px'>{{Paradigma}}</span>
+    <br>
+    {{Aussprache}}{{Aussprache}}{{Aussprache}}
+    <hr id=answer>
+    {{Bedeutung}}
 ```
 
 You may want to experiment with colors and font properties. HMTL to rescue :)
