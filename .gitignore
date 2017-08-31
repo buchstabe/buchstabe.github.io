@@ -2,4 +2,5 @@
 .jekyll-metadata
 Gemfile.lock
 source/_site
+minima
 
