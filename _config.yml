@@ -1,7 +1,7 @@
 title: Data Processing Lab Notebook
 email: arbox@yandex.com
 description: > # this means to ignore newlines until "baseurl:"
-  Frontiers of Data Processing, Language Engineering and Mashine
+  Frontiers of Data Processing, Language Engineering and Machine
   Learning in Ruby.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bu.chsta.be" # the base hostname & protocol for your site, e.g. http://example.com
