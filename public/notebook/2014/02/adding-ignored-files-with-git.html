@@ -122,6 +122,8 @@
           
             
             
+            <a class="page-link" href="/notebook/">Lab Notebook</a>
+            
           
             
             
@@ -156,16 +158,17 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>Today I’ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
+    <p>Today I’ve encountered the problem adding files within a LaTeX project.
+All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
 
-<p>```bash .gitignore
-*.pdf</p>
-<div class="highlighter-rouge"><pre class="highlight"><code>
-I had to add two PDF files with graphics and didn't want to change my ingnoring rules:
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>cat .gitignore
+<span class="k">*</span>.pdf
+</code></pre>
+</div>
 
-```bash Adding ignored files with Git
-$ git add -f file1.pdf file2.pdf
+<p>I had to add two PDF files with graphics and didn’t want to change my ingnoring rules:</p>
 
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git add -f file1.pdf file2.pdf
 </code></pre>
 </div>
 

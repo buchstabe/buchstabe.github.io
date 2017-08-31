@@ -122,6 +122,8 @@
           
             
             
+            <a class="page-link" href="/notebook/">Lab Notebook</a>
+            
           
             
             
@@ -156,10 +158,10 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>I’ve tried many ways to build a clean testing environment for Emacs editor on my Ubuntu machine. One previous attempt showed a possible way to do so:</p>
+    <p>I’ve tried many ways to build a clean testing environment for Emacs editor on my
+Ubuntu machine. One previous attempt showed a possible way to do so:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>emacs -Q -l some_startup_script.el
-
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>emacs -Q -l some_startup_script.el
 </code></pre>
 </div>
 
@@ -167,18 +169,16 @@
 
 <p>For now I consider a better way starting Emacs from another user:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>emacs -u emacstestuser
-
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>emacs -u emacstestuser
 </code></pre>
 </div>
 
-<p>All customizations can be done in the <code>.emacs.d</code> directory from <code>emacstestuser</code>. The only thing you need is changing of user specific variables:</p>
+<p>All customizations can be done in the <code>.emacs.d</code> directory from <code>emacstestuser</code>.
+The only thing you need is changing of user specific variables:</p>
 
-<p>```ruby .emacs</p>
-
-<p>(setq user-emacs-directory “/home/emacstestuser/.emacs.d”)</p>
-
-<p>```</p>
+<div class="language-emacs-lisp highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="k">setq</span> <span class="nv">user-emacs-directory</span> <span class="s">"/home/emacstestuser/.emacs.d"</span><span class="p">)</span>
+</code></pre>
+</div>
 
   </div>
 
