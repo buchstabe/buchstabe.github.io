@@ -1,5 +1,6 @@
 title: Data Processing Lab Notebook
-email: arbox@yandex.com
+email: arbox@bu.chsta.be
+author: Andrei Beliankou
 description: > # this means to ignore newlines until "baseurl:"
   Frontiers of Data Processing, Language Engineering and Machine
   Learning in Ruby.
@@ -10,6 +11,7 @@ github_username:  arbox
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 # theme: minima
 plugins:
   - jekyll-feed
@@ -30,3 +32,6 @@ keep_files:
   - CNAME
   - .git
 yandex_metrica: true
+google_analytics: UA-91420426-2
+disqus:
+  shortname: buchstabe
