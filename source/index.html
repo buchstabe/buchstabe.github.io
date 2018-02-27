@@ -3,8 +3,40 @@ author: Andrei Beliankou
 title: Language Data Processing Lab
 description: 'Buchstabe is a project for Ruby, NLP, Linguistics and Teaching.'
 keywords: 'NLP, Natural Language Processing, Computational Linguistics, Ruby, JRuby, Java'
-layout: redirected
 sitemap: false
 permalink: /
 redirect_to: /notebook/
 ---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="canonical" href="{{ page.redirect_to }}"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <link href="{{ "/favicon.png" | relative_url }}" rel="icon" type="image/png" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    {% if jekyll.environment == 'production' %}
+      {% if site.google_analytics %}
+        {% include google-analytics.html %}
+      {% endif %}
+      {% if site.yandex_metrica %}
+        {% include yandex_metrica.html %}
+      {% endif %}
+    {% endif %}
+
+    <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+    <a href="{{ page.redirect_to }}">Click here if you are not redirected.</a>
+    <script location='{{ page.redirect_to }}'></script>
+  </body>
+</html>
