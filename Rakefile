@@ -95,7 +95,7 @@ end
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
-task :new_post, :title do |t, args|
+task :new_post, :title do |_t, args|
   if args.title
     title = args.title
   else
@@ -119,7 +119,7 @@ task :new_post, :title do |t, args|
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    post.puts "title: \"#{title.gsub(/&/, '&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "comments: true"
     post.puts "categories: "
@@ -268,7 +268,7 @@ multitask :push do
   cd "#{deploy_dir}" do
     Bundler.with_clean_env { system "git pull" }
   end
-  (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
+  (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) } #
   Rake::Task[:copydot].invoke(public_dir, deploy_dir)
   puts "\n## Copying #{public_dir} to #{deploy_dir}"
   cp_r "#{public_dir}/.", deploy_dir
