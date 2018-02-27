@@ -9,6 +9,6 @@ categories: nlp
 
 Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:
 
-- https://github.com/arbox/data-science-with-ruby
-- https://github.com/arbox/nlp-with-ruby
-- https://github.com/arbox/machine-learning-with-ruby
+- [https://github.com/arbox/data-science-with-ruby](https://github.com/arbox/data-science-with-ruby)
+- [https://github.com/arbox/nlp-with-ruby](https://github.com/arbox/nlp-with-ruby)
+- [https://github.com/arbox/machine-learning-with-ruby](https://github.com/arbox/machine-learning-with-ruby)
