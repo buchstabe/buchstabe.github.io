@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Begin Jekyll SEO tag v2.3.0 -->
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
 <title>Capistrano: deployment strategies | Data Processing Lab Notebook</title>
+<meta name="generator" content="Jekyll v3.7.2" />
 <meta property="og:title" content="Capistrano: deployment strategies" />
 <meta name="author" content="Andrei Beliankou" />
 <meta property="og:locale" content="en_US" />
@@ -19,7 +20,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2013-07-05T12:57:00+02:00" />
 <script type="application/ld+json">
-{"name":null,"description":"Capistrano is a tool for remote server automation and deployment. We have to underline these two task as they will remain two different areas for a long time. Historicaly Capistrano was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using Capistrano.","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2013/07/capistrano-deployment-strategies.html","publisher":null,"image":null,"headline":"Capistrano: deployment strategies","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-07-05T12:57:00+02:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2013/07/capistrano-deployment-strategies.html"},"@context":"http://schema.org"}</script>
+{"description":"Capistrano is a tool for remote server automation and deployment. We have to underline these two task as they will remain two different areas for a long time. Historicaly Capistrano was a deployment tool, but since then many server administration tools have been created for remote server administration. Software installation, package upgrade, data base management can be arranged using Capistrano.","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2013/07/capistrano-deployment-strategies.html","headline":"Capistrano: deployment strategies","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-07-05T12:57:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2013/07/capistrano-deployment-strategies.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -166,7 +167,7 @@
 
 <p>If you have a static site or do not want to use a SCM for deployment look at the following code snippet:</p>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="n">set</span> <span class="ss">:repository</span><span class="p">,</span>  <span class="s2">"./source_dir"</span> <span class="c1"># This is our directory with the content to be deployed.</span>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">set</span> <span class="ss">:repository</span><span class="p">,</span>  <span class="s2">"./source_dir"</span> <span class="c1"># This is our directory with the content to be deployed.</span>
 <span class="n">set</span> <span class="ss">:scm</span><span class="p">,</span> <span class="ss">:none</span> <span class="c1"># Do not use any SCM.</span>
 
 <span class="n">set</span> <span class="ss">:deploy_to</span><span class="p">,</span> <span class="s1">'/var/www/mysite/htdocs'</span> <span class="c1"># This is a place on the remote machine.</span>
@@ -175,8 +176,7 @@
 <span class="n">set</span> <span class="ss">:copy_dir</span><span class="p">,</span> <span class="s1">'./tmp/capistrano'</span> <span class="c1"># Here we create a temporary archive with our content.</span>
 <span class="n">set</span> <span class="ss">:copy_remote_dir</span><span class="p">,</span> <span class="s2">"</span><span class="si">#{</span><span class="n">deploy_to</span><span class="si">}</span><span class="s2">/tmp/capistrano"</span> <span class="c1"># There the archive will be copied.</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>You have to ensure that both local and remote directories for archives exist.</p>
 

@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Begin Jekyll SEO tag v2.3.0 -->
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
 <title>Deleting files from a Git repository | Data Processing Lab Notebook</title>
+<meta name="generator" content="Jekyll v3.7.2" />
 <meta property="og:title" content="Deleting files from a Git repository" />
 <meta name="author" content="Andrei Beliankou" />
 <meta property="og:locale" content="en_US" />
@@ -19,7 +20,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2013-07-13T15:28:00+02:00" />
 <script type="application/ld+json">
-{"name":null,"description":"Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point).","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2013/07/deleting-files-from-a-git-repository.html","publisher":null,"image":null,"headline":"Deleting files from a Git repository","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-07-13T15:28:00+02:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2013/07/deleting-files-from-a-git-repository.html"},"@context":"http://schema.org"}</script>
+{"description":"Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point).","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2013/07/deleting-files-from-a-git-repository.html","headline":"Deleting files from a Git repository","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-07-13T15:28:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2013/07/deleting-files-from-a-git-repository.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,23 +165,21 @@
 
 <p>If you want a complete removal use <tt>git rm</tt>:</p>
 
-<div class="language-shell highlighter-rouge"><pre class="highlight"><code>
-<span class="gp">$ </span>git rm file_to_delete.rb
-<span class="gp">$ </span><span class="c"># file_to_delete.rb removed from both your working copy and repository tree.</span>
-<span class="gp">$ </span>git rm -r directory_to_delete
-<span class="gp">$ </span><span class="c"># directory_to removed from both your working copy and repository tree.</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nv">$ </span>git <span class="nb">rm </span>file_to_delete.rb
+<span class="nv">$ </span><span class="c"># file_to_delete.rb removed from both your working copy and repository tree.</span>
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">-r</span> directory_to_delete
+<span class="nv">$ </span><span class="c"># directory_to removed from both your working copy and repository tree.</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
-<div class="language-shell highlighter-rouge"><pre class="highlight"><code>If you want to keep your <span class="nb">local </span>copy use &lt;tt&gt;git rm --cached&lt;/tt&gt;.
-<span class="gp">$ </span>git rm --cached file_to_delete.rb
-<span class="gp">$ </span><span class="c"># file_to_delete.rb removed only from repository tree.</span>
-<span class="gp">$ </span>git rm --cached -r directory_to_delete
-<span class="gp">$ </span><span class="c"># directory_to removed only from your repository tree.</span>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you want to keep your <span class="nb">local </span>copy use &lt;tt&gt;git <span class="nb">rm</span> <span class="nt">--cached</span>&lt;/tt&gt;.
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">--cached</span> file_to_delete.rb
+<span class="nv">$ </span><span class="c"># file_to_delete.rb removed only from repository tree.</span>
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">--cached</span> <span class="nt">-r</span> directory_to_delete
+<span class="nv">$ </span><span class="c"># directory_to removed only from your repository tree.</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>In the latter case don’t forget to add the file or directory to your <tt>.gitignore</tt> file, otherwise <em>Git</em> will bother you with annoying status messages.</p>
 

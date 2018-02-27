@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Begin Jekyll SEO tag v2.3.0 -->
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
 <title>Adding ignored files with Git | Data Processing Lab Notebook</title>
+<meta name="generator" content="Jekyll v3.7.2" />
 <meta property="og:title" content="Adding ignored files with Git" />
 <meta name="author" content="Andrei Beliankou" />
 <meta property="og:locale" content="en_US" />
@@ -19,7 +20,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2014-02-12T13:09:00+01:00" />
 <script type="application/ld+json">
-{"name":null,"description":"Today I’ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project .gitignore:","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2014/02/adding-ignored-files-with-git.html","publisher":null,"image":null,"headline":"Adding ignored files with Git","dateModified":"2014-02-12T13:37:53+01:00","datePublished":"2014-02-12T13:09:00+01:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2014/02/adding-ignored-files-with-git.html"},"@context":"http://schema.org"}</script>
+{"description":"Today I’ve encountered the problem adding files within a LaTeX project. All generated PDF files are ignored in the project .gitignore:","author":{"@type":"Person","name":"Andrei Beliankou"},"@type":"BlogPosting","url":"https://bu.chsta.be/notebook/2014/02/adding-ignored-files-with-git.html","headline":"Adding ignored files with Git","dateModified":"2014-02-12T13:37:53+01:00","datePublished":"2014-02-12T13:09:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/notebook/2014/02/adding-ignored-files-with-git.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -161,16 +162,14 @@
     <p>Today I’ve encountered the problem adding files within a LaTeX project.
 All generated PDF files are ignored in the project <code>.gitignore</code>:</p>
 
-<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>cat .gitignore
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">cat</span> .gitignore
 <span class="k">*</span>.pdf
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>I had to add two PDF files with graphics and didn’t want to change my ingnoring rules:</p>
 
-<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git add -f file1.pdf file2.pdf
-</code></pre>
-</div>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git add <span class="nt">-f</span> file1.pdf file2.pdf
+</code></pre></div></div>
 
 <p>The <code>-f</code> switch forces Git to add ignored files. Use it!</p>
 
