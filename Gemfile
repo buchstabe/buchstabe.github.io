@@ -16,4 +16,5 @@ group :development do
   gem 'stringex', '~> 2.8'
   # Jekyll offline documentation: =jekyll docs=
   gem 'jekyll-docs', '~> 3.7'
+  gem 'rake', '12.3'
 end
