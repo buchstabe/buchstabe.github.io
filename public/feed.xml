@@ -1,5 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bu.chsta.be/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bu.chsta.be/" rel="alternate" type="text/html" /><updated>2018-03-09T19:22:32+01:00</updated><id>https://bu.chsta.be/</id><title type="html">Data Processing Lab Notebook</title><subtitle>Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.
-</subtitle><author><name>Andrei Beliankou</name></author><entry><title type="html">Coffee Break #9</title><link href="https://bu.chsta.be/notebook/2018/03/coffee-break-number-9.html" rel="alternate" type="text/html" title="Coffee Break #9" /><published>2018-03-09T19:07:42+01:00</published><updated>2018-03-09T19:21:14+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/coffee-break-number-9</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/coffee-break-number-9.html">&lt;h1 id=&quot;coffee-break-9&quot;&gt;Coffee Break #9&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bu.chsta.be/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bu.chsta.be/" rel="alternate" type="text/html" /><updated>2018-03-09T19:58:55+01:00</updated><id>https://bu.chsta.be/</id><title type="html">Data Processing Lab Notebook</title><subtitle>Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.
+</subtitle><author><name>Andrei Beliankou</name></author><entry><title type="html">How to install Zotero Standalone on Linux</title><link href="https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html" rel="alternate" type="text/html" title="How to install Zotero Standalone on Linux" /><published>2018-03-09T19:38:35+01:00</published><updated>2018-03-09T19:57:30+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html">&lt;h1 id=&quot;how-to-install-zotero-standalone-on-linux&quot;&gt;How to install Zotero Standalone on Linux&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Zotero&lt;/a&gt; is our favorite research tool and the means how we work on bibliography collections.&lt;/p&gt;
+
+&lt;p&gt;As of today Zotero is not distributed any more in form of a Firefox plugin. The fifth version of this popular bibliography manager replaced the former &lt;em&gt;standalone&lt;/em&gt; version.&lt;/p&gt;
+
+&lt;p&gt;Since most of us have a Linux based laptop we need to install Zotero without the official installer.&lt;/p&gt;
+
+&lt;p&gt;Zotero can be installed from packaged sources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ibaidev/zotero-snap&quot;&gt;Zotero as a SNAP&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/smathot/zotero_installer&quot;&gt;Zotero Installer as DEB package&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will try to install Zotero from the official sources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download the official archive (&lt;a href=&quot;https://www.zotero.org/download/&quot;&gt;https://www.zotero.org/download/&lt;/a&gt;);&lt;/li&gt;
+  &lt;li&gt;Uncompress the archive under &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.local/opt/&lt;/code&gt;;&lt;/li&gt;
+  &lt;li&gt;Link the Zotero executable under a directory in your &lt;code class=&quot;highlighter-rouge&quot;&gt;$PATH&lt;/code&gt;, e.g.:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; ~/.local/opt/Zotero_linux-x86_64/zotero ~/.local/bin/zotero
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Start Zotero from the console, lock the program icon to the launcher, which creates a launcher copy under &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.local/share/applications/zotero.desktop&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s it!&lt;/p&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">How to install Zotero Standalone on Linux</summary></entry><entry><title type="html">Coffee Break #9</title><link href="https://bu.chsta.be/notebook/2018/03/coffee-break-number-9.html" rel="alternate" type="text/html" title="Coffee Break #9" /><published>2018-03-09T19:07:42+01:00</published><updated>2018-03-09T19:22:52+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/coffee-break-number-9</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/coffee-break-number-9.html">&lt;h1 id=&quot;coffee-break-9&quot;&gt;Coffee Break #9&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.infoworld.com/article/3261566/application-development/ruby-finally-gains-in-popularity-but-go-plateaus.html&quot;&gt;https://www.infoworld.com/article/3261566/application-development/ruby-finally-gains-in-popularity-but-go-plateaus.html&lt;/a&gt; - Ruby is considered to become more popular.&lt;/li&gt;
@@ -53,10 +83,4 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/blog/2506-slack-and-github-your-ultimate-productivity-pair&quot;&gt;https://github.com/blog/2506-slack-and-github-your-ultimate-productivity-pair&lt;/a&gt; - On pairing Slack and Github (and why it’s so cool).&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/gradle/gradle-completion&quot;&gt;https://github.com/gradle/gradle-completion&lt;/a&gt; - Official Gradle CMD complition scripts for Bash and Zsh.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.virtuouscode.com/2017/01/11/advice-to-myself-8-years-ago&quot;&gt;http://www.virtuouscode.com/2017/01/11/advice-to-myself-8-years-ago&lt;/a&gt; - How to spend a decade of your life wisely.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Coffee Brake #1</summary></entry><entry><title type="html">Non web tasks in Ruby</title><link href="https://bu.chsta.be/notebook/2017/06/non-web-tasks-in-ruby.html" rel="alternate" type="text/html" title="Non web tasks in Ruby" /><published>2017-06-11T22:53:19+02:00</published><updated>2018-02-27T19:08:59+01:00</updated><id>https://bu.chsta.be/notebook/2017/06/non-web-tasks-in-ruby</id><content type="html" xml:base="https://bu.chsta.be/notebook/2017/06/non-web-tasks-in-ruby.html">&lt;p&gt;Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/arbox/data-science-with-ruby&quot;&gt;https://github.com/arbox/data-science-with-ruby&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/arbox/nlp-with-ruby&quot;&gt;https://github.com/arbox/nlp-with-ruby&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/arbox/machine-learning-with-ruby&quot;&gt;https://github.com/arbox/machine-learning-with-ruby&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Ruby is a very capable language. Do NLP, Machine Learning and Data Science in Ruby:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Coffee Brake #1</summary></entry></feed>
