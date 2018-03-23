@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bu.chsta.be/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bu.chsta.be/" rel="alternate" type="text/html" /><updated>2018-03-22T18:37:39+01:00</updated><id>https://bu.chsta.be/</id><title type="html">Data Processing Lab Notebook</title><subtitle>Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.
-</subtitle><author><name>Andrei Beliankou</name></author><entry><title type="html">Coffee Break #18</title><link href="https://bu.chsta.be/notebook/2018/03/coffee-break-number-18.html" rel="alternate" type="text/html" title="Coffee Break #18" /><published>2018-03-22T18:31:11+01:00</published><updated>2018-03-22T18:37:34+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/coffee-break-number-18</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/coffee-break-number-18.html">&lt;h1 id=&quot;coffee-break-18&quot;&gt;Coffee Break #18&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="https://bu.chsta.be/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bu.chsta.be/" rel="alternate" type="text/html" /><updated>2018-03-23T19:55:26+01:00</updated><id>https://bu.chsta.be/</id><title type="html">Data Processing Lab Notebook</title><subtitle>Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.
+</subtitle><author><name>Andrei Beliankou</name></author><entry><title type="html">Coffee Break #19</title><link href="https://bu.chsta.be/notebook/2018/03/coffee-break-number-19.html" rel="alternate" type="text/html" title="Coffee Break #19" /><published>2018-03-23T19:45:32+01:00</published><updated>2018-03-23T19:55:22+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/coffee-break-number-19</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/coffee-break-number-19.html">&lt;h1 id=&quot;coffee-break-19&quot;&gt;Coffee Break #19&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/saving-changes&quot;&gt;https://www.atlassian.com/git/tutorials/saving-changes&lt;/a&gt; — If you never used Git, read this introductory article.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&quot;&gt;https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby&lt;/a&gt; — Hash rockets and more of Ruby.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apiumhub.com/tech-blog-barcelona/product-owner-role-software-development/&quot;&gt;https://apiumhub.com/tech-blog-barcelona/product-owner-role-software-development/&lt;/a&gt; — If you ever wanted to become a product owner, it’s for you.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Coffee Break #19</summary></entry><entry><title type="html">Coffee Break #18</title><link href="https://bu.chsta.be/notebook/2018/03/coffee-break-number-18.html" rel="alternate" type="text/html" title="Coffee Break #18" /><published>2018-03-22T18:31:11+01:00</published><updated>2018-03-22T18:37:34+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/coffee-break-number-18</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/coffee-break-number-18.html">&lt;h1 id=&quot;coffee-break-18&quot;&gt;Coffee Break #18&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element&quot;&gt;https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element&lt;/a&gt; — Speed comparison between Apache Spark &lt;code class=&quot;highlighter-rouge&quot;&gt;map()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;mapPartitions()&lt;/code&gt;.&lt;/li&gt;
@@ -53,34 +59,4 @@
   &lt;li&gt;&lt;a href=&quot;http://danmidwood.com/content/2014/11/21/animated-paredit.html&quot;&gt;http://danmidwood.com/content/2014/11/21/animated-paredit.html&lt;/a&gt; — Funny braces dancing under your fingers&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.apress.com/us/book/9781484234730&quot;&gt;https://www.apress.com/us/book/9781484234730&lt;/a&gt; — Ruby Data Processing: Primer.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.codewithjason.com/ruby-testing-micro-course/&quot;&gt;https://www.codewithjason.com/ruby-testing-micro-course/&lt;/a&gt; — RSpec testing introduction.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Coffee Break #10</summary></entry><entry><title type="html">How to install Zotero Standalone on Linux</title><link href="https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html" rel="alternate" type="text/html" title="How to install Zotero Standalone on Linux" /><published>2018-03-09T19:38:35+01:00</published><updated>2018-03-09T19:59:57+01:00</updated><id>https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux</id><content type="html" xml:base="https://bu.chsta.be/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html">&lt;h1 id=&quot;how-to-install-zotero-standalone-on-linux&quot;&gt;How to install Zotero Standalone on Linux&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.zotero.org/&quot;&gt;Zotero&lt;/a&gt; is our favorite research tool and the means how we work on bibliography collections.&lt;/p&gt;
-
-&lt;p&gt;As of today Zotero is not distributed any more in form of a Firefox plugin. The fifth version of this popular bibliography manager replaced the former &lt;em&gt;standalone&lt;/em&gt; version.&lt;/p&gt;
-
-&lt;p&gt;Since most of us have a Linux based laptop we need to install Zotero without the official installer.&lt;/p&gt;
-
-&lt;p&gt;Zotero can be installed from packaged sources:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ibaidev/zotero-snap&quot;&gt;Zotero as a SNAP&lt;/a&gt;;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/smathot/zotero_installer&quot;&gt;Zotero Installer as DEB package&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We will try to install Zotero from the official sources:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Download the official archive (&lt;a href=&quot;https://www.zotero.org/download/&quot;&gt;https://www.zotero.org/download/&lt;/a&gt;);&lt;/li&gt;
-  &lt;li&gt;Uncompress the archive under &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.local/opt/&lt;/code&gt;;&lt;/li&gt;
-  &lt;li&gt;Link the Zotero executable under a directory in your &lt;code class=&quot;highlighter-rouge&quot;&gt;$PATH&lt;/code&gt;, e.g.:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; ~/.local/opt/Zotero_linux-x86_64/zotero ~/.local/bin/zotero
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Start Zotero from the console, lock the program icon to the launcher, which creates a launcher copy under &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.local/share/applications/zotero.desktop&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That’s it!&lt;/p&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">How to install Zotero Standalone on Linux</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Andrei Beliankou</name></author><summary type="html">Coffee Break #10</summary></entry></feed>
