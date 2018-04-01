@@ -5,22 +5,16 @@ description: 'Buchstabe is a project for Ruby, NLP, Linguistics and Teaching.'
 keywords: 'NLP, Natural Language Processing, Computational Linguistics, Ruby, JRuby, Java'
 sitemap: false
 permalink: /
-redirect_to: /notebook/
 ---
 
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="canonical" href="{{ page.redirect_to }}"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% seo %}
-
-    <link href='//fonts.googleapis.com/css?family=Raleway:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
     <link href="{{ "/favicon.png" | relative_url }}" rel="icon" type="image/png" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
     {% if jekyll.environment == 'production' %}
@@ -32,11 +26,124 @@ redirect_to: /notebook/
       {% endif %}
     {% endif %}
 
-    <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}" />
+    {% seo %}
+
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
   </head>
+
+
   <body>
-    <h1>Redirecting...</h1>
-    <a href="{{ page.redirect_to }}">Click here if you are not redirected.</a>
-    <script location='{{ page.redirect_to }}'></script>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#home">{{ page.title }}</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">  
+            <li>
+              <a class="page-scroll" href="/notebook/">Notebook</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="/feed.xml">RSS</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <section id="home">
+      <!-- Header -->
+      <div class="intro-header">
+
+	<div class="container">
+
+	  <div class="row">
+	    <div class="col-lg-12">
+	      <div class="intro-message">
+		<h1>{{ page.title }}</h1>
+		<hr class="intro-divider">
+		<ul class="list-inline intro-social-buttons">
+                  <a href="/notebook/" class="btn btn-default btn-lg"><span class="network-name">Read Our Lab Notebook</span></a>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+
+	</div>
+	<!-- /.container -->
+
+      </div>
+      <!-- /.intro-header -->
+    </section>
+
+    <!-- Footer -->
+<!---
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list-inline">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="/about">About</a>
+              </li>
+              <li class="footer-menu-divider">&sdot;</li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <p class="copyright text-muted small">{{ site.copyright }}</p>
+          </div>
+          <div class="col-md-4">
+            {{ site.description }}
+          </div>
+        </div>
+      </div>
+    </footer>
+-->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ "js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/landing-page.js"></script>
+
   </body>
 </html>
