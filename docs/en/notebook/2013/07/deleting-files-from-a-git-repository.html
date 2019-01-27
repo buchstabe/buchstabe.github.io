@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Data Processing Lab Notebook | Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.</title>
+<title>Deleting files from a Git repository | Data Processing Lab Notebook</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Data Processing Lab Notebook" />
+<meta property="og:title" content="Deleting files from a Git repository" />
 <meta name="author" content="Andrei Beliankou" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<meta property="og:description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point)." />
+<meta property="og:description" content="Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point)." />
+<link rel="canonical" href="http://localhost:4000/en/notebook/2013/07/deleting-files-from-a-git-repository.html" />
+<meta property="og:url" content="http://localhost:4000/en/notebook/2013/07/deleting-files-from-a-git-repository.html" />
 <meta property="og:site_name" content="Data Processing Lab Notebook" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-07-13T15:28:00+02:00" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Data Processing Lab Notebook","dateModified":"2017-08-24T18:04:36+02:00","url":"http://localhost:4000/404.html","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.","@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Deleting files from a Git repository","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-07-13T15:28:00+02:00","url":"http://localhost:4000/en/notebook/2013/07/deleting-files-from-a-git-repository.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/notebook/2013/07/deleting-files-from-a-git-repository.html"},"author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point).","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -88,26 +90,54 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Deleting files from a Git repository</h1>
+    <p class="post-meta">
+      <time datetime="2013-07-13T15:28:00+02:00" itemprop="datePublished">
+        
+        Jul 13, 2013
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Andrei Beliankou</span></span>
+      </p>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="post-content" itemprop="articleBody">
+    <p>Suppose you have been working for a long time on a project, and now you want to delete some files from you project because … (the reason does not really matter at this point).</p>
+
+<p>You may want to completely erase a file or a whole directory from your repository. The file or directory may be kept in the local copy or deleted as well.</p>
+
+<p>If you want a complete removal use <tt>git rm</tt>:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nv">$ </span>git <span class="nb">rm </span>file_to_delete.rb
+<span class="nv">$ </span><span class="c"># file_to_delete.rb removed from both your working copy and repository tree.</span>
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">-r</span> directory_to_delete
+<span class="nv">$ </span><span class="c"># directory_to removed from both your working copy and repository tree.</span>
+
+</code></pre></div></div>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you want to keep your <span class="nb">local </span>copy use &lt;tt&gt;git <span class="nb">rm</span> <span class="nt">--cached</span>&lt;/tt&gt;.
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">--cached</span> file_to_delete.rb
+<span class="nv">$ </span><span class="c"># file_to_delete.rb removed only from repository tree.</span>
+<span class="nv">$ </span>git <span class="nb">rm</span> <span class="nt">--cached</span> <span class="nt">-r</span> directory_to_delete
+<span class="nv">$ </span><span class="c"># directory_to removed only from your repository tree.</span>
+
+</code></pre></div></div>
+
+<p>In the latter case don’t forget to add the file or directory to your <tt>.gitignore</tt> file, otherwise <em>Git</em> will bother you with annoying status messages.</p>
+
+<p>One last thing you should keep in mind is that erasing data from a repository means only that the information is not present in the actual commit and in all future incarnations of the code. The data can be restored from the previous states of your repository. If you want to wipe your sensitive data consider reading the appropriate <a href="https://help.github.com/articles/remove-sensitive-data">GitHub Help page</a> on this topic.</p>
+
+  </div>
+
+  
+    
+
+  
+</article>
 
       </div>
     </main>

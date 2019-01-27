@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Data Processing Lab Notebook | Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.</title>
+<title>How to install Zotero Standalone on Linux | Data Processing Lab Notebook</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Data Processing Lab Notebook" />
+<meta property="og:title" content="How to install Zotero Standalone on Linux" />
 <meta name="author" content="Andrei Beliankou" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<meta property="og:description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="How to install Zotero Standalone on Linux" />
+<meta property="og:description" content="How to install Zotero Standalone on Linux" />
+<link rel="canonical" href="http://localhost:4000/en/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html" />
+<meta property="og:url" content="http://localhost:4000/en/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html" />
 <meta property="og:site_name" content="Data Processing Lab Notebook" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-03-09T19:38:35+01:00" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Data Processing Lab Notebook","dateModified":"2017-08-24T18:04:36+02:00","url":"http://localhost:4000/404.html","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.","@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","headline":"How to install Zotero Standalone on Linux","dateModified":"2018-03-09T19:59:57+01:00","datePublished":"2018-03-09T19:38:35+01:00","url":"http://localhost:4000/en/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/notebook/2018/03/how-to-install-zotero-standalone-on-linux.html"},"author":{"@type":"Person","name":"Andrei Beliankou"},"description":"How to install Zotero Standalone on Linux","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -88,26 +90,58 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How to install Zotero Standalone on Linux</h1>
+    <p class="post-meta">
+      <time datetime="2018-03-09T19:38:35+01:00" itemprop="datePublished">
+        
+        Mar 9, 2018
+      </time>
+      </p>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="how-to-install-zotero-standalone-on-linux">How to install Zotero Standalone on Linux</h1>
+
+<p><a href="https://www.zotero.org/">Zotero</a> is our favorite research tool and the means how we work on bibliography collections.</p>
+
+<p>As of today Zotero is not distributed any more in form of a Firefox plugin. The fifth version of this popular bibliography manager replaced the former <em>standalone</em> version.</p>
+
+<p>Since most of us have a Linux based laptop we need to install Zotero without the official installer.</p>
+
+<p>Zotero can be installed from packaged sources:</p>
+
+<ul>
+  <li><a href="https://github.com/ibaidev/zotero-snap">Zotero as a SNAP</a>;</li>
+  <li><a href="https://github.com/smathot/zotero_installer">Zotero Installer as DEB package</a>.</li>
+</ul>
+
+<p>We will try to install Zotero from the official sources:</p>
+
+<ul>
+  <li>Download the official archive (<a href="https://www.zotero.org/download/">https://www.zotero.org/download/</a>);</li>
+  <li>Uncompress the archive under <code class="highlighter-rouge">~/.local/opt/</code>;</li>
+  <li>Link the Zotero executable under a directory in your <code class="highlighter-rouge">$PATH</code>, e.g.:</li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">ln</span> <span class="nt">-s</span> ~/.local/opt/Zotero_linux-x86_64/zotero ~/.local/bin/zotero
+</code></pre></div></div>
+
+<ul>
+  <li>Start Zotero from the console, lock the program icon to the launcher, which creates a launcher copy under <code class="highlighter-rouge">~/.local/share/applications/zotero.desktop</code>.</li>
+</ul>
+
+<p>That’s it!</p>
+
+  </div>
+
+  
+    
+
+  
+</article>
 
       </div>
     </main>

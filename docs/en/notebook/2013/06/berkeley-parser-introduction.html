@@ -7,18 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Data Processing Lab Notebook | Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.</title>
+<title>Berkeley Parser: Introduction | Data Processing Lab Notebook</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Data Processing Lab Notebook" />
+<meta property="og:title" content="Berkeley Parser: Introduction" />
 <meta name="author" content="Andrei Beliankou" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<meta property="og:description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Berkeley Parser is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar." />
+<meta property="og:description" content="Berkeley Parser is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar." />
+<link rel="canonical" href="http://localhost:4000/en/notebook/2013/06/berkeley-parser-introduction.html" />
+<meta property="og:url" content="http://localhost:4000/en/notebook/2013/06/berkeley-parser-introduction.html" />
 <meta property="og:site_name" content="Data Processing Lab Notebook" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-06-26T12:27:00+02:00" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Data Processing Lab Notebook","dateModified":"2017-08-24T18:04:36+02:00","url":"http://localhost:4000/404.html","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.","@context":"http://schema.org"}</script>
+{"@type":"BlogPosting","headline":"Berkeley Parser: Introduction","dateModified":"2017-08-24T18:04:36+02:00","datePublished":"2013-06-26T12:27:00+02:00","url":"http://localhost:4000/en/notebook/2013/06/berkeley-parser-introduction.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/notebook/2013/06/berkeley-parser-introduction.html"},"author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Berkeley Parser is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -88,26 +90,40 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Berkeley Parser: Introduction</h1>
+    <p class="post-meta">
+      <time datetime="2013-06-26T12:27:00+02:00" itemprop="datePublished">
+        
+        Jun 26, 2013
+      </time>
+      
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Andrei Beliankou</span></span>
+      </p>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="post-content" itemprop="articleBody">
+    <p><a href="https://code.google.com/p/berkeleyparser/">Berkeley Parser</a> is one the best open source syntactic parsers for today. It uses a sofisticated split-merge algorithm to learn a constituent grammar started with a simple x-bar grammar.</p>
+
+<p>The parser itself and a grammar for one of provided languages here from its <a href="https://code.google.com/p/berkeleyparser/downloads/list">repository</a> at Google code. For now pretrained grammars are offered for English, German, French, Bulgarian, Arabic and Chinese.</p>
+
+<p>We’ve downloaded the parser archive and the English grammar. Let’s try to produce some meaningful output:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">echo</span> <span class="s2">"The horse raced past the barn fell ."</span> | <span class="se">\</span>
+<span class="nv">$ </span>java <span class="nt">-jar</span> BerkeleyParser-1.7.jar <span class="nt">-gr</span> eng_sm6.gr
+</code></pre></div></div>
+
+<p>The resulted analysis is by far not ideal but it is a good beginning:</p>
+
+  </div>
+
+  
+    
+
+  
+</article>
 
       </div>
     </main>
