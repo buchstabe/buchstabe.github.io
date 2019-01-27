@@ -1,5 +1,7 @@
 ---
 author: Andrei Beliankou
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "We moved to Octopress!"
 date: 2013-02-24 22:07

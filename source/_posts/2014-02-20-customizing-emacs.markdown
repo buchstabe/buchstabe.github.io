@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Customizing Emacs"
 date: 2014-02-20 14:41:30 +0100

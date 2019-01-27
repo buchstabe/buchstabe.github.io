@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Coffee Break #28"
 date: 2018-04-13 14:49:06 +0200

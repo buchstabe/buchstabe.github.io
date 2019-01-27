@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Capistrano: deployment strategies"
 date: 2013-07-05 12:57

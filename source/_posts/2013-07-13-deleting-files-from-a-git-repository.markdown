@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Deleting files from a Git repository"
 date: 2013-07-13 15:28

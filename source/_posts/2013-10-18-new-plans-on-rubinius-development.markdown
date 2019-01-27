@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "New plans on Rubinius' development"
 date: 2013-10-18 13:48

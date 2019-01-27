@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Crossplatform UIs with JavaFX"
 date: 2014-02-16 20:26:43 +0100

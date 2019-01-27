@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Berkeley Parser: Introduction"
 date: 2013-06-26 12:27

@@ -1,5 +1,7 @@
 ---
 author: Andrei Beliankou
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Ruby Koans"
 date: 2013-02-24 18:48

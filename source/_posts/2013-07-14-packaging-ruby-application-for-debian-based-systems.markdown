@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Packaging ruby applications for Debian based systems"
 date: 2013-07-14 21:40

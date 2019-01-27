@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "An Anki Model for German Nouns"
 date: 2013-06-21 11:47

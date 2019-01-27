@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Online Dictionaries"
 date: 2014-02-28 16:45:02 +0100

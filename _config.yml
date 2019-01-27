@@ -12,26 +12,27 @@ github_username:  arbox
 # Build settings
 markdown: kramdown
 highlighter: rouge
-# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
   - jekyll-seo-tag
   - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - mkdocs.yml
-  - _site
-  - _site_source
-  - _mkdocs_source
 source: source
-destination: public
-permalink: /notebook/:year/:month/:title.html
+destination: docs
+# permalink: /notebook/:year/:month/:title.html
 keep_files:
   - CNAME
-  - .git
 yandex_metrica: true
 google_analytics: UA-91420426-2
 disqus:
   shortname: buchstabe
+copyright: 'Copyright &copy; 2011-2018 Buchstabe Team.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+social:
+  - title: twitter
+    url: https://twitter.com/SBootstrap
+  - title: github
+    url: https://github.com/IronSummitMedia/startbootstrap
+  - title: blog
+    url: /notebook/

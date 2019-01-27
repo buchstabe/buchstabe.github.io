@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Non web tasks in Ruby"
 date: 2017-06-11 22:53:19 +0200

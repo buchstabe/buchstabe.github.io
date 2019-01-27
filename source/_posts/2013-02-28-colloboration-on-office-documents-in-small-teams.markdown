@@ -1,5 +1,7 @@
 ---
 author: Andrei Beliankou
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Colloboration on office documents in small teams"
 date: 2013-02-28 14:24

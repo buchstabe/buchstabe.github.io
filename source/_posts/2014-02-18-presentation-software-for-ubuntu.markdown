@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Presentation Software for Ubuntu"
 date: 2014-02-18 14:52:55 +0100

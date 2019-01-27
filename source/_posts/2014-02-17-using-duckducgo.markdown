@@ -1,4 +1,6 @@
 ---
+lang: en
+permalink: /en/notebook/:year/:month/:title.html
 layout: post
 title: "Using DuckDucGo"
 date: 2014-02-17 13:16:53 +0100
