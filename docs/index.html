@@ -1,42 +1,83 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ruby Programming Language</title>
-    <script type="text/javascript">
-      var languages = {
-        "bg":    "bg",
-        "de":    "de",
-        "es":    "es",
-        "fr":    "fr",
-        "id":    "id",
-        "it":    "it",
-        "ja":    "ja",
-        "ko":    "ko",
-        "pl":    "pl",
-        "pt":    "pt",
-        "ru":    "ru",
-        "tr":    "tr",
-        "vi":    "vi",
-        "zh-CN": "zh_cn",
-        "zh-TW": "zh_tw"
-      };
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Language Data Processing Laboratory | Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Language Data Processing Laboratory" />
+<meta name="author" content="Andrei Beliankou" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
+<meta property="og:description" content="Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby." />
+<link rel="canonical" href="https://bu.chsta.be/en/" />
+<meta property="og:url" content="https://bu.chsta.be/en/" />
+<meta property="og:site_name" content="Language Data Processing Laboratory" />
+<script type="application/ld+json">
+{"dateModified":"2019-02-01T21:00:04+01:00","@type":"WebSite","headline":"Language Data Processing Laboratory","url":"https://bu.chsta.be/en/","name":"Language Data Processing Laboratory","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Frontiers of Data Processing, Language Engineering and Machine Learning in Ruby.","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="https://bu.chsta.be/feed.xml" title="Language Data Processing Laboratory" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-91420426-2"></script>
+<script>
+  window['ga-disable-UA-91420426-2'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      var code = window.navigator.language || window.navigator.userLanguage || "en";
-      if (code.substr(0,2) !== "zh") { code = code.substr(0,2); }
+  gtag('config', 'UA-91420426-2');
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-      var language = languages[code];
-      if (!language) { language = "en"; }
+   ym(21677008, "init", {
+        id:21677008,
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<!-- /Yandex.Metrika counter -->
+<script type="text/javascript">
+         var languages = {
+             "bg":    "bg",
+             "de":    "de",
+             "es":    "es",
+             "fr":    "fr",
+             "id":    "id",
+             "it":    "it",
+             "ja":    "ja",
+             "ko":    "ko",
+             "pl":    "pl",
+             "pt":    "pt",
+             "ru":    "ru",
+             "tr":    "tr",
+             "vi":    "vi",
+             "zh-CN": "zh_cn",
+             "zh-TW": "zh_tw"
+         };
 
-     language = "en";
+         var code = window.navigator.language || window.navigator.userLanguage || "en";
+         if (code.substr(0,2) !== "zh") { code = code.substr(0,2); }
 
-      document.location = "/" + language + "/";
-    </script>
-    <noscript>
-      <meta http-equiv="refresh" content="0; url=/en/">
-    </noscript>
-  </head>
-  <body>
-    <p><a href="/en/">Click here</a> to be redirected.</p>
-  </body>
+         var language = languages[code];
+         if (!language) { language = "en"; }
+
+         language = "en";
+
+         document.location = "/" + language + "/";
+        </script>
+        <noscript>
+            <meta http-equiv="refresh" content="0; url=/en/">
+        </noscript>
+    </head>
+    <body><noscript>
+    <div>
+        <img src="https://mc.yandex.ru/watch/21677008" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+</noscript>
+<p><a href="/en/">Click here</a> to be redirected.</p>
+    </body>
 </html>
