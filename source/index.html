@@ -17,7 +17,7 @@ canonical_url: https://bu.chsta.be/en/
             {%- include google-analytics.html -%}
           {%- endif -%}
           {%- if site.yandex_metrica -%}
-            {%- include yandex_metrica.html -%}
+            {%- include yandex-metrica.html -%}
           {%- endif -%}
         {%- endif -%}
         <script type="text/javascript">
@@ -54,6 +54,7 @@ canonical_url: https://bu.chsta.be/en/
         </noscript>
     </head>
     <body>
+        {%- include yandex-metrica-noscript.html -%}
         <p><a href="/en/">Click here</a> to be redirected.</p>
     </body>
 </html>
