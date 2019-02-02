@@ -8,15 +8,15 @@
 <meta property="og:title" content="Coffee Break #18" />
 <meta name="author" content="Andrei Beliankou" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Coffee Break #18" />
-<meta property="og:description" content="Coffee Break #18" />
+<meta name="description" content="https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element — Speed comparison between Apache Spark map() and mapPartitions(). https://databricks.com/blog/2018/02/28/introducing-apache-spark-2-3.html — Apache Spark 2.3 on DataBricks. https://scala-lang.org/blog/2018/03/19/accessible-scala.html — What Stephen Hawking would say about scalac." />
+<meta property="og:description" content="https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element — Speed comparison between Apache Spark map() and mapPartitions(). https://databricks.com/blog/2018/02/28/introducing-apache-spark-2-3.html — Apache Spark 2.3 on DataBricks. https://scala-lang.org/blog/2018/03/19/accessible-scala.html — What Stephen Hawking would say about scalac." />
 <link rel="canonical" href="https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html" />
 <meta property="og:url" content="https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html" />
 <meta property="og:site_name" content="Language Data Processing Laboratory" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-03-22T18:31:11+01:00" />
 <script type="application/ld+json">
-{"dateModified":"2019-01-28T00:05:35+01:00","datePublished":"2018-03-22T18:31:11+01:00","@type":"BlogPosting","headline":"Coffee Break #18","mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html"},"url":"https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"Coffee Break #18","@context":"http://schema.org"}</script>
+{"dateModified":"2019-01-28T00:05:35+01:00","datePublished":"2018-03-22T18:31:11+01:00","@type":"BlogPosting","headline":"Coffee Break #18","mainEntityOfPage":{"@type":"WebPage","@id":"https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html"},"url":"https://bu.chsta.be/en/en/notebook/2018/03/coffee-break-number-18.html","author":{"@type":"Person","name":"Andrei Beliankou"},"description":"https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element — Speed comparison between Apache Spark map() and mapPartitions(). https://databricks.com/blog/2018/02/28/introducing-apache-spark-2-3.html — Apache Spark 2.3 on DataBricks. https://scala-lang.org/blog/2018/03/19/accessible-scala.html — What Stephen Hawking would say about scalac.","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bu.chsta.be/en/feed.xml" title="Language Data Processing Laboratory" /><script async src="https://www.googletagmanager.com/gtag/js?id=UA-91420426-2"></script>
 <script>
@@ -74,9 +74,7 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h1 id="coffee-break-18">Coffee Break #18</h1>
-
-<ul>
+    <ul>
   <li><a href="https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element">https://martin.atlassian.net/wiki/spaces/lestermartin/blog/2016/05/19/67043332/why+spark+s+mapPartitions+transformation+is+faster+than+map+calls+your+function+once+partition+not+once+element</a> — Speed comparison between Apache Spark <code class="highlighter-rouge">map()</code> and <code class="highlighter-rouge">mapPartitions()</code>.</li>
   <li><a href="https://databricks.com/blog/2018/02/28/introducing-apache-spark-2-3.html">https://databricks.com/blog/2018/02/28/introducing-apache-spark-2-3.html</a> — Apache Spark 2.3 on DataBricks.</li>
   <li><a href="https://scala-lang.org/blog/2018/03/19/accessible-scala.html">https://scala-lang.org/blog/2018/03/19/accessible-scala.html</a> — What Stephen Hawking would say about <code class="highlighter-rouge">scalac</code>.</li>
