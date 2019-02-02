@@ -2,10 +2,9 @@ title: Language Data Processing Laboratory
 email: arbox@bu.chsta.be
 author: Andrei Beliankou
 description: > # this means to ignore newlines until "baseurl:"
-  Frontiers of Data Processing, Language Engineering and Machine
-  Learning in Ruby.
+  Frontiers of Data Processing, Language Engineering and Machine Learning
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bu.chsta.be" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bu.chsta.be/en" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: nonwebruby
 github_username:  arbox
 
@@ -20,19 +19,12 @@ plugins:
 source: source
 destination: docs
 # permalink: /notebook/:year/:month/:title.html
+
 keep_files:
   - CNAME
-yandex_metrica: true
-google_analytics: UA-91420426-2
-disqus:
-  shortname: buchstabe
-copyright: 'Copyright &copy; 2011-2018 Buchstabe Team.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: blog
-    url: /notebook/
+yandex_metrica: true
+
+google_analytics: UA-91420426-2
+
+copyright: 'Copyright &copy; 2011-2018 Buchstabe Team.'

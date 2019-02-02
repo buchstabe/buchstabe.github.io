@@ -8,8 +8,6 @@ comments: true
 categories: Zotero
 ---
 
-# How to install Zotero Standalone on Linux
-
 [Zotero](https://www.zotero.org/) is our favorite research tool and the means how we work on bibliography collections.
 
 As of today Zotero is not distributed any more in form of a Firefox plugin. The fifth version of this popular bibliography manager replaced the former _standalone_ version.
