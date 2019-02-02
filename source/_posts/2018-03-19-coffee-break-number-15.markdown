@@ -8,8 +8,6 @@ comments: true
 categories: "Coffee Break"
 ---
 
-# Coffee Break #15
-
 - [https://spin.atomicobject.com/2015/01/02/python-environment-mgmt/](https://spin.atomicobject.com/2015/01/02/python-environment-mgmt/) &mdash; Bundler vs. virtualenv.
 - [https://coderwall.com/p/du_sgq/ctags-in-rails-project](https://coderwall.com/p/du_sgq/ctags-in-rails-project) &mdash; Using Ctags in Rails projects.
 - [https://pypi.python.org/pypi/autopep8](https://pypi.python.org/pypi/autopep8) &mdash; Python linter for PEP8.

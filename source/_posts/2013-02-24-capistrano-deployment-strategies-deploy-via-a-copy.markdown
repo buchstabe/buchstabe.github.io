@@ -41,7 +41,7 @@ cannot be accessed from the remote machine, you can use only the copy
 strategy. In that case you use the code:
 
 ``` ruby
-	set :deploy_via, :copy
+set :deploy_via, :copy
 ```
 
 For more details consider to read the Capistrano source code:

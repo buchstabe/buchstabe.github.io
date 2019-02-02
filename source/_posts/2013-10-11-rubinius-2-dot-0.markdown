@@ -9,4 +9,6 @@ comments: true
 categories: Ruby
 ---
 
-On October, 4th the Rubinius team announced the release of Rubinius 2.0. There are many exciting things to share. Look inside [Rubinius 2.0](http://rubini.us/2013/10/04/rubinius-2-0-released/)!
+On October, 4th the Rubinius team announced the release of Rubinius 2.0.
+There are many exciting things to share.
+Look inside [Rubinius 2.0](http://rubini.us/2013/10/04/rubinius-2-0-released/)!

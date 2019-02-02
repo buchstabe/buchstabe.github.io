@@ -8,8 +8,6 @@ comments: true
 categories: "Coffee Break"
 ---
 
-# Coffee Break #9
-
 - [https://www.infoworld.com/article/3261566/application-development/ruby-finally-gains-in-popularity-but-go-plateaus.html](https://www.infoworld.com/article/3261566/application-development/ruby-finally-gains-in-popularity-but-go-plateaus.html) - Ruby is considered to become more popular.
 - [https://www.zotero.org](https://www.zotero.org/) - Your research assistant to stay for long.
 - [http://chrisseaton.com/rubytruffle/structs/](http://chrisseaton.com/rubytruffle/structs/) - How TruffleRuby interprets C Structures.
