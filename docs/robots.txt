@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bu.chsta.be/sitemap.xml
+Sitemap: https://bu.chsta.be/en/sitemap.xml
