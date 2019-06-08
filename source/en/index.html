@@ -14,15 +14,12 @@ description: Frontiers of Data Processing, Language Engineering and Machine Lear
         {%- seo -%}
 
         <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" />
-        <link rel="stylesheet" media="screen" href="/assets/css/tachyons.min-08491521ce2b37c8bffb821afb952c00f43b5de0b91fe006c7c517403c4bcfdb.css" />
+        <link rel="stylesheet" media="screen" href="{{ "/assets/css/tachyons.min-08491521ce2b37c8bffb821afb952c00f43b5de0b91fe006c7c517403c4bcfdb.css" | relative_url }}" />
 
         {%- feed_meta -%}
         {%- if jekyll.environment == 'production' -%}
           {%- if site.google_analytics -%}
             {%- include google-analytics.html -%}
-          {%- endif -%}
-          {%- if site.yandex_metrica -%}
-            {%- include yandex-metrica.html -%}
           {%- endif -%}
         {%- endif -%}
     </head>
