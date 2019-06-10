@@ -16,6 +16,7 @@ plugins:
   - jekyll-sitemap
 keep_files:
   - CNAME
+  - _redirects
 header_pages:
   - about.md
 show_excerpts: true

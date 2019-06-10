@@ -1,0 +1,5 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect default Netlify subdomain to primary domain
+https://www-buchstabe-on-netlify.netlify.com/* https://www.bu.chsta.be/:splat 301!
+https://bu.chsta.be/* https://www.bu.chsta.be/:splat 301!
