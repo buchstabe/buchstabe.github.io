@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://bu.chsta.be/en/en/notebook/2012/06/compare-words-not-lines.html</loc>
+<lastmod>2019-06-12T10:48:28+02:00</lastmod>
+</url>
+<url>
 <loc>https://bu.chsta.be/en/en/notebook/2013/02/capistrano-deployment-strategies-deploy-via-a-copy.html</loc>
 <lastmod>2019-02-02T22:21:26+01:00</lastmod>
 </url>
